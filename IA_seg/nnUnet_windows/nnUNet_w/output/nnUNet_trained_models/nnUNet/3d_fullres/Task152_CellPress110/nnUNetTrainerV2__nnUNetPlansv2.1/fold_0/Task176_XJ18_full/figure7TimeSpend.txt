@@ -1,0 +1,13 @@
+preprocessing time: 0.0
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0028.nii.gz inference time:656.0471422672272
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0030.nii.gz inference time:616.7297990322113
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0032.nii.gz inference time:617.1527650356293
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0033.nii.gz inference time:607.5503311157227
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0034.nii.gz inference time:649.7331736087799
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0035.nii.gz inference time:651.0845556259155
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0037.nii.gz inference time:418.77466320991516
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0039.nii.gz inference time:857.7870881557465
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0041.nii.gz inference time:540.6592381000519
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0046.nii.gz inference time:540.5903644561768
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0053.nii.gz inference time:574.7927076816559
+F:/codes/nnUnet_windows/nnUNet_w/output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task176_XJ18_full\XJTs0065.nii.gz inference time:613.3544239997864

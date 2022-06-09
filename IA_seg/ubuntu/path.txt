@@ -1,0 +1,72 @@
+--------------------------------------ane_seg-----------------------------------------------
+ExB_full:
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/external/B/ane_seg
+
+
+
+ExA_full:
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/external/A/ane_seg
+
+
+
+ExA headcut:
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/output/ExA_Headcut/ane_seg
+
+
+ExB headcut:
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/output/ExB_Headcut/ane_seg
+
+
+
+
+XJ_data_full:
+/mnt/f/data/xianjin_data/ane_seg
+
+XJ_data_headcut:
+/home/ubuntu/codes/radiology/2HeadCut_New/XJ_headcut/ane_seg
+
+
+XJTsN_data_full:
+/mnt/f/data/xianjin_data/ane_seg_rename
+
+
+
+CellPress_Test_full:
+/mnt/f/data/CellPress1338/ane_seg_ts
+
+
+CellPress_Test_headcut:
+/mnt/f/data/CellPress1338/headcut/ane_seg
+
+
+------------------------------------------cta_img--------------------------------------------
+
+ExA_cta_img headcut:
+
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/output/ExA_Headcut/cta_img
+
+
+
+ExB_cta_img headcut:
+/media/ubuntu/Seagate\ Expansion\ Drive/IACTA/CellPress1338/output/ExB_Headcut/cta_img
+
+
+
+XJ_data_full
+/mnt/f/data/xianjin_data/cta_img
+
+
+
+XJTsN_data_full:
+/mnt/f/data/xianjin_data/cta_img_rename
+
+
+
+CellPress_Test_full:
+/mnt/f/data/CellPress1338/cta_img_ts
+
+
+
+
+CellPress_Test_headcut:
+/mnt/f/data/CellPress1338/headcut/cta_img

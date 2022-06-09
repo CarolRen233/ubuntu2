@@ -1,0 +1,111 @@
+INFO:root:use device 0
+INFO:root:gt_file_or_folder: E:/IACTA/CellPress1338/output/ExA_Headcut/ane_seg/large
+INFO:root:pred_file_or_folder: F:/codes/ubuntu/nnUnet/3nnUnet/nnUNet_output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task172_ExA/large
+INFO:root:mask or probability distribution: mask
+INFO:root:Begin to scan gt_folder_or_file E:/IACTA/CellPress1338/output/ExA_Headcut/ane_seg/large...
+INFO:root:Begin to scan pred_folder_or_file F:/codes/ubuntu/nnUnet/3nnUnet/nnUNet_output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task172_ExA/large...
+INFO:root:instance number: 70. start evaluating...
+INFO:root:===================evaluate headcut====================
+INFO:root:===metrics_dict===
+{'ap': AP(), 'auc': AUC(), 'precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'sensitivity': Sensitivity(
+  (cm): _ConfusionMatrix()
+), 'specificity': Specificity(
+  (cm): _ConfusionMatrix()
+), 'dsc': DSC(
+  (cm): _ConfusionMatrix()
+), 'hd95': HD95(), 'tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+), 'tn': TrueNegative(
+  (cm): _ConfusionMatrix()
+), 'per_target_precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'per_target_recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'per_target_tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+)}
+======curves_dict====
+{'pr': AP(), 'roc': AUC()}
+INFO:root:(1 in 70) ExtA0001:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61245100	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(2 in 70) ExtA0002:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 66903384	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(3 in 70) ExtA0003:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 67003410	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(4 in 70) ExtA0004:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 51967500	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(5 in 70) ExtA0005:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 36351183	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(6 in 70) ExtA0006:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 58324800	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(7 in 70) ExtA0007:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61616295	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(8 in 70) ExtA0008:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 60256262	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(9 in 70) ExtA0010:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 55678504	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(10 in 70) ExtA0011:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 53290800	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(11 in 70) ExtA0012:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 57536212	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(12 in 70) ExtA0013:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 56890449	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(13 in 70) ExtA0014:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 57270720	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(14 in 70) ExtA0015:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 53465731	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(15 in 70) ExtA0016:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61908000	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(16 in 70) ExtA0017:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 53418624	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(17 in 70) ExtA0018:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 71948800	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(18 in 70) ExtA0019:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 69094935	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(19 in 70) ExtA0020:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 75725820	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(20 in 70) ExtA0021:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62816061	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(21 in 70) ExtA0022:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 73563840	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(22 in 70) ExtA0023:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62749890	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(23 in 70) ExtA0024:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 56121698	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(24 in 70) ExtA0025:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 64504440	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(25 in 70) ExtA0026:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62429136	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(26 in 70) ExtA0027:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62451900	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(27 in 70) ExtA0028:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 58758615	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(28 in 70) ExtA0029:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 63747684	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(29 in 70) ExtA0030:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 64564560	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(30 in 70) ExtA0031:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 63184356	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(31 in 70) ExtA0032:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 66624180	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(32 in 70) ExtA0033:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 58754916	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(33 in 70) ExtA0034:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 66569521	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(34 in 70) ExtA0035:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 79525908	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(35 in 70) ExtA0036:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 66816792	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(36 in 70) ExtA0037:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 53874576	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(37 in 70) ExtA0038:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 69078854	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(38 in 70) ExtA0039:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 69077232	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(39 in 70) ExtA0040:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 58368505	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(40 in 70) ExtA0041:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 63106560	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(41 in 70) ExtA0042:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62072620	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(42 in 70) ExtA0043:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 66611376	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(43 in 70) ExtA0044:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61796448	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(44 in 70) ExtA0045:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 55788750	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(45 in 70) ExtA0046:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 56878248	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(46 in 70) ExtA0047:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 71029120	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(47 in 70) ExtA0048:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61485600	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(48 in 70) ExtA0049:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 64768725	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(49 in 70) ExtA0050:	ap: 0.7119	auc: 0.9767	precision: 0.9471	recall: 0.9534	sensitivity: 0.9534	specificity: 1.0000	dsc: 0.9502	hd95: 0.7071	tp: 25249	fp: 1411	fn: 1233	tn: 67684207	per_target_precision: 1.0000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 0	per_target_fn: 0
+INFO:root:(50 in 70) ExtA0051:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 65237480	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(51 in 70) ExtA0052:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62128962	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(52 in 70) ExtA0053:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 56630400	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(53 in 70) ExtA0054:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 62849406	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(54 in 70) ExtA0055:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 64877436	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(55 in 70) ExtA0056:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 65428077	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(56 in 70) ExtA0057:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 54744900	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(57 in 70) ExtA0058:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 65980928	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(58 in 70) ExtA0059:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 58380084	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(59 in 70) ExtA0060:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 56968992	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(60 in 70) ExtA0061:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 65896604	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(61 in 70) ExtA0062:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 59465340	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(62 in 70) ExtA0063:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 68499450	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(63 in 70) ExtA0064:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 71968344	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(64 in 70) ExtA0065:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61724915	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(65 in 70) ExtA0066:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 67127424	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(66 in 70) ExtA0067:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 63926830	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(67 in 70) ExtA0068:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 54636640	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(68 in 70) ExtA0069:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 65468062	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(69 in 70) ExtA0070:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 68866560	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(70 in 70) ExtA0071:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 59446305	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:overall:	ap: 0.7119	auc: 0.9767	precision: 0.9471	recall: 0.9534	sensitivity: 0.9534	specificity: 1.0000	dsc: 0.9502	hd95: 0.7071	tp: 25249	fp: 1411	fn: 1233	tn: 4364953986	per_target_precision: 1.0000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 0	per_target_fn: 0

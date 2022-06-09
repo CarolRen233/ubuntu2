@@ -1,0 +1,43 @@
+eval:
+  gt_file_or_folder: /home/ubuntu/codes/radiology/3nnUnet/Tslabel_whole
+  pred_file_or_folder: /home/ubuntu/codes/radiology/3nnUnet/nnUNet_output/nnUNet_trained_models/nnUNet/3d_fullres/Task170_XJ563/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/inferTs360best
+gt_suffix: '*.nii.gz'
+pred_suffix: '*.nii.gz'
+eval_prob:
+  metrics:
+  - dsc
+  - hd95
+  - per_target_precision
+  - per_target_recall
+  - per_target_ap
+  - per_target_auc
+  num_thresholds: 200
+  thresholds_type: uline
+  probability_threshold: 0.5
+  save_metrics_to_file: eval_metrics.csv
+eval_mask:
+  metrics:
+  - ap
+  - auc
+  - precision
+  - recall
+  - sensitivity
+  - specificity
+  - dsc
+  - hd95
+  - tp
+  - fp
+  - fn
+  - tn
+  - per_target_precision
+  - per_target_recall
+  - per_target_tp
+  - per_target_fp
+  - per_target_fn
+  probability_threshold: 0.5
+  curves:
+  - pr
+  - roc
+  num_thresholds: 200
+  thresholds_type: uline
+  save_metrics_to_file: eval_metrics.csv

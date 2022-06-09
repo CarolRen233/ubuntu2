@@ -1,0 +1,43 @@
+{
+    "description": "nothing",
+    "labels": {
+        "0": "background",
+        "1": "IA"
+    },
+    "licence": "see CellPress license",
+    "modality": {
+        "0": "CT",
+        "1": "HU100200",
+        "2": "HU200800"
+    },
+    "name": "XJ18_full",
+    "numTest": 21,
+    "numTraining": 0,
+    "reference": "see CellPress",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/XJTs0000.nii.gz",
+        "./imagesTs/XJTs0001.nii.gz",
+        "./imagesTs/XJTs0002.nii.gz",
+        "./imagesTs/XJTs0003.nii.gz",
+        "./imagesTs/XJTs0004.nii.gz",
+        "./imagesTs/XJTs0005.nii.gz",
+        "./imagesTs/XJTs0010.nii.gz",
+        "./imagesTs/XJTs0015.nii.gz",
+        "./imagesTs/XJTs0023.nii.gz",
+        "./imagesTs/XJTs0028.nii.gz",
+        "./imagesTs/XJTs0030.nii.gz",
+        "./imagesTs/XJTs0032.nii.gz",
+        "./imagesTs/XJTs0033.nii.gz",
+        "./imagesTs/XJTs0034.nii.gz",
+        "./imagesTs/XJTs0035.nii.gz",
+        "./imagesTs/XJTs0037.nii.gz",
+        "./imagesTs/XJTs0039.nii.gz",
+        "./imagesTs/XJTs0041.nii.gz",
+        "./imagesTs/XJTs0046.nii.gz",
+        "./imagesTs/XJTs0053.nii.gz",
+        "./imagesTs/XJTs0065.nii.gz"
+    ],
+    "training": []
+}

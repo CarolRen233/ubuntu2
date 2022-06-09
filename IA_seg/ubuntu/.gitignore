@@ -1,0 +1,16 @@
+headcut/log
+headcut/model
+test_image
+radiology/2HeadCut_New/brain_mask/*
+radiology/2HeadCut_New/log/*
+radiology/2HeadCut_New/model/*
+radiology/2HeadCut_New/result/*
+radiology/2HeadCut_New/XJ_headcut/*
+radiology/3nnUnet/nnUNet_output/*
+radiology/3nnUnet/Tslabel_whole/*
+radiology/4nnUnet/nnUNet_output/*
+radiology/4nnUnet/raw_headcut_data/*
+GLIA-Net/medical_data/*
+GLIA-Net/GLIA-Net/1/*
+GLIA-Net/exp/*
+MyMedicalZoo/output/*

@@ -1,0 +1,611 @@
+INFO:root:Namespace(augmentation=False, config='inference_CellPressTest', cuda=True, device='0', mode='inference', save='/home/ubuntu/codes/MyMedicalZoo/output/CellPressTest')
+INFO:root:config loaded:
+{'data': {'dataset': 'CellPressTest', 'data_num': 71, 'train_num': 0, 'test_num': 71, 'instances_csv_path': None, 'csv_info_path': None, 'brain_file': None, 'data_dir': '/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut', 'patch_dir': None, 'split_fold_valid': None, 'split_fold_train': None, 'hu_values': [[0, 100], [100, 200], [200, 800]], 'train_pos_neg_ratio': [1, 1], 'eval_pos_neg_ratio': [1, 1], 'patch_size': [96, 96, 96], 'overlap_step': [48, 48, 48]}, 'train': {'train_save_dir': '/root/workspace/renyan/output/Medzoo', 'model': 'UNET3D', 'nEpochs': 1000, 'classes': 2, 'inChannels': 3, 'inModalities': 3, 'dim': '(96, 96, 96)', 'terminal_show_freq': 50, 'lr': 0.01, 'opt': 'sgd', 'weight_decay': 1e-10, 'batchSz': 4}, 'inference': {'just_head': True, 'head_flag': '_headcut_', 'pkl_info_path': '/home/ubuntu/codes/radiology/file/after_headcut_properties_CellPressTest.pkl', 'pretrained': '/home/ubuntu/codes/MyMedicalZoo/output/exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}, 'eval': {'gt_file_or_folder': 'F:\\saved_models\\Medzoo\\IACTA_UNET3D\\1\\fold_1\\fold_1_BEST_Brain__inference_k_7_a_30_t_1', 'metrics': ['ap', 'auc', 'precision', 'recall', 'dsc', 'hd95', 'per_target_precision', 'per_target_recall'], 'curves': ['pr', 'roc'], 'num_thresholds': 100, 'thresholds_type': 'uline', 'probability_threshold': 0.5}}
+INFO:root:---------------------------id Ts0001------------------------
+INFO:root:pred_img_np shape:
+(328, 341, 264)
+INFO:root:Process Ts0001,time spent:15.47021770477295 
+INFO:root:---------------------------id Ts0002------------------------
+INFO:root:pred_img_np shape:
+(296, 428, 357)
+INFO:root:Process Ts0002,time spent:22.238955974578857 
+INFO:root:---------------------------id Ts0003------------------------
+INFO:root:pred_img_np shape:
+(295, 393, 336)
+INFO:root:Process Ts0003,time spent:19.191500186920166 
+INFO:root:---------------------------id Ts0004------------------------
+INFO:root:pred_img_np shape:
+(475, 452, 349)
+INFO:root:Process Ts0004,time spent:38.23307132720947 
+INFO:root:---------------------------id Ts0005------------------------
+INFO:root:pred_img_np shape:
+(321, 337, 282)
+INFO:root:Process Ts0005,time spent:11.948638916015625 
+INFO:root:---------------------------id Ts0006------------------------
+INFO:root:pred_img_np shape:
+(407, 450, 359)
+INFO:root:Process Ts0006,time spent:33.42814898490906 
+INFO:root:---------------------------id Ts0007------------------------
+INFO:root:pred_img_np shape:
+(292, 373, 327)
+INFO:root:Process Ts0007,time spent:17.405216217041016 
+INFO:root:---------------------------id Ts0008------------------------
+INFO:root:pred_img_np shape:
+(289, 432, 355)
+INFO:root:Process Ts0008,time spent:22.34646248817444 
+INFO:root:---------------------------id Ts0009------------------------
+INFO:root:pred_img_np shape:
+(299, 358, 286)
+INFO:root:Process Ts0009,time spent:12.3733549118042 
+INFO:root:---------------------------id Ts0010------------------------
+INFO:root:pred_img_np shape:
+(388, 446, 380)
+INFO:root:Process Ts0010,time spent:31.375400066375732 
+INFO:root:---------------------------id Ts0011------------------------
+INFO:root:pred_img_np shape:
+(380, 374, 304)
+INFO:root:Process Ts0011,time spent:21.00748920440674 
+INFO:root:---------------------------id Ts0012------------------------
+INFO:root:pred_img_np shape:
+(430, 475, 429)
+INFO:root:Process Ts0012,time spent:39.179250955581665 
+INFO:root:---------------------------id Ts0013------------------------
+INFO:root:pred_img_np shape:
+(428, 414, 363)
+INFO:root:Process Ts0013,time spent:30.474263429641724 
+INFO:root:---------------------------id Ts0014------------------------
+INFO:root:pred_img_np shape:
+(405, 414, 348)
+INFO:root:Process Ts0014,time spent:29.053879499435425 
+INFO:root:---------------------------id Ts0015------------------------
+INFO:root:pred_img_np shape:
+(410, 421, 367)
+INFO:root:Process Ts0015,time spent:30.090519905090332 
+INFO:root:---------------------------id Ts0016------------------------
+INFO:root:pred_img_np shape:
+(297, 471, 395)
+INFO:root:Process Ts0016,time spent:28.127119779586792 
+INFO:root:---------------------------id Ts0017------------------------
+INFO:root:pred_img_np shape:
+(310, 419, 380)
+INFO:root:Process Ts0017,time spent:22.379031658172607 
+INFO:root:---------------------------id Ts0018------------------------
+INFO:root:pred_img_np shape:
+(329, 454, 357)
+INFO:root:Process Ts0018,time spent:22.508179426193237 
+INFO:root:---------------------------id Ts0019------------------------
+INFO:root:pred_img_np shape:
+(295, 447, 367)
+INFO:root:Process Ts0019,time spent:24.576777458190918 
+INFO:root:---------------------------id Ts0020------------------------
+INFO:root:pred_img_np shape:
+(304, 422, 369)
+INFO:root:Process Ts0020,time spent:22.677451372146606 
+INFO:root:---------------------------id Ts0021------------------------
+INFO:root:pred_img_np shape:
+(302, 407, 337)
+INFO:root:Process Ts0021,time spent:21.890525341033936 
+INFO:root:---------------------------id Ts0022------------------------
+INFO:root:pred_img_np shape:
+(293, 430, 356)
+INFO:root:Process Ts0022,time spent:19.15958285331726 
+INFO:root:---------------------------id Ts0023------------------------
+INFO:root:pred_img_np shape:
+(303, 386, 342)
+INFO:root:Process Ts0023,time spent:21.348917722702026 
+INFO:root:---------------------------id Ts0024------------------------
+INFO:root:pred_img_np shape:
+(304, 385, 353)
+INFO:root:Process Ts0024,time spent:21.49530267715454 
+INFO:root:---------------------------id Ts0025------------------------
+INFO:root:pred_img_np shape:
+(300, 381, 327)
+INFO:root:Process Ts0025,time spent:17.524072885513306 
+INFO:root:---------------------------id Ts0026------------------------
+INFO:root:pred_img_np shape:
+(296, 416, 359)
+INFO:root:Process Ts0026,time spent:22.027069091796875 
+INFO:root:---------------------------id Ts0027------------------------
+INFO:root:pred_img_np shape:
+(300, 435, 376)
+INFO:root:Process Ts0027,time spent:24.97276520729065 
+INFO:root:---------------------------id Ts0028------------------------
+INFO:root:pred_img_np shape:
+(291, 404, 352)
+INFO:root:Process Ts0028,time spent:21.778576135635376 
+INFO:root:---------------------------id Ts0029------------------------
+INFO:root:pred_img_np shape:
+(286, 432, 342)
+INFO:root:Process Ts0029,time spent:19.747011184692383 
+INFO:root:---------------------------id Ts0030------------------------
+INFO:root:pred_img_np shape:
+(310, 381, 316)
+INFO:root:Process Ts0030,time spent:15.72669792175293 
+INFO:root:---------------------------id Ts0031------------------------
+INFO:root:pred_img_np shape:
+(484, 336, 277)
+INFO:root:Process Ts0031,time spent:21.143680334091187 
+INFO:root:---------------------------id Ts0032------------------------
+INFO:root:pred_img_np shape:
+(286, 404, 340)
+INFO:root:Process Ts0032,time spent:19.352506160736084 
+INFO:root:---------------------------id Ts0033------------------------
+INFO:root:pred_img_np shape:
+(442, 478, 396)
+INFO:root:Process Ts0033,time spent:42.62220597267151 
+INFO:root:---------------------------id Ts0034------------------------
+INFO:root:pred_img_np shape:
+(313, 404, 330)
+INFO:root:Process Ts0034,time spent:18.15581727027893 
+INFO:root:---------------------------id Ts0035------------------------
+INFO:root:pred_img_np shape:
+(289, 410, 338)
+INFO:root:Process Ts0035,time spent:21.589550495147705 
+INFO:root:---------------------------id Ts0036------------------------
+INFO:root:pred_img_np shape:
+(301, 391, 333)
+INFO:root:Process Ts0036,time spent:19.064340114593506 
+INFO:root:---------------------------id Ts0037------------------------
+INFO:root:pred_img_np shape:
+(318, 377, 320)
+INFO:root:Process Ts0037,time spent:17.812941551208496 
+INFO:root:---------------------------id Ts0038------------------------
+INFO:root:pred_img_np shape:
+(286, 358, 310)
+INFO:root:Process Ts0038,time spent:14.81155514717102 
+INFO:root:---------------------------id Ts0039------------------------
+INFO:root:pred_img_np shape:
+(296, 401, 338)
+INFO:root:Process Ts0039,time spent:17.985657930374146 
+INFO:root:---------------------------id Ts0040------------------------
+INFO:root:pred_img_np shape:
+(321, 420, 344)
+INFO:root:Process Ts0040,time spent:23.52130436897278 
+INFO:root:---------------------------id Ts0041------------------------
+INFO:root:pred_img_np shape:
+(297, 454, 414)
+INFO:root:Process Ts0041,time spent:28.5098774433136 
+INFO:root:---------------------------id Ts0042------------------------
+INFO:root:pred_img_np shape:
+(294, 424, 360)
+INFO:root:Process Ts0042,time spent:22.134178400039673 
+INFO:root:---------------------------id Ts0043------------------------
+INFO:root:pred_img_np shape:
+(283, 434, 358)
+INFO:root:Process Ts0043,time spent:21.07166337966919 
+INFO:root:---------------------------id Ts0044------------------------
+INFO:root:pred_img_np shape:
+(309, 440, 401)
+INFO:root:Process Ts0044,time spent:27.98398184776306 
+INFO:root:---------------------------id Ts0045------------------------
+INFO:root:pred_img_np shape:
+(300, 454, 373)
+INFO:root:Process Ts0045,time spent:22.845123052597046 
+INFO:root:---------------------------id Ts0046------------------------
+INFO:root:pred_img_np shape:
+(445, 427, 344)
+INFO:root:Process Ts0046,time spent:33.23601841926575 
+INFO:root:---------------------------id Ts0047------------------------
+INFO:root:pred_img_np shape:
+(446, 428, 376)
+INFO:root:Process Ts0047,time spent:33.994086503982544 
+INFO:root:---------------------------id Ts0048------------------------
+INFO:root:pred_img_np shape:
+(452, 459, 380)
+INFO:root:Process Ts0048,time spent:38.96943998336792 
+INFO:root:---------------------------id Ts0049------------------------
+INFO:root:pred_img_np shape:
+(307, 398, 346)
+INFO:root:Process Ts0049,time spent:21.88061261177063 
+INFO:root:---------------------------id Ts0050------------------------
+INFO:root:pred_img_np shape:
+(440, 473, 385)
+INFO:root:Process Ts0050,time spent:41.7622275352478 
+INFO:root:---------------------------id Ts0051------------------------
+INFO:root:pred_img_np shape:
+(445, 366, 309)
+INFO:root:Process Ts0051,time spent:21.538251161575317 
+INFO:root:---------------------------id Ts0052------------------------
+INFO:root:pred_img_np shape:
+(383, 400, 337)
+INFO:root:Process Ts0052,time spent:26.699562788009644 
+INFO:root:---------------------------id Ts0053------------------------
+INFO:root:pred_img_np shape:
+(400, 438, 353)
+INFO:root:Process Ts0053,time spent:32.15918946266174 
+INFO:root:---------------------------id Ts0054------------------------
+INFO:root:pred_img_np shape:
+(459, 504, 417)
+INFO:root:Process Ts0054,time spent:42.70437526702881 
+INFO:root:---------------------------id Ts0055------------------------
+INFO:root:pred_img_np shape:
+(406, 495, 389)
+INFO:root:Process Ts0055,time spent:40.930389404296875 
+INFO:root:---------------------------id Ts0056------------------------
+INFO:root:pred_img_np shape:
+(417, 470, 392)
+INFO:root:Process Ts0056,time spent:37.88463497161865 
+INFO:root:---------------------------id Ts0057------------------------
+INFO:root:pred_img_np shape:
+(387, 462, 405)
+INFO:root:Process Ts0057,time spent:33.18379235267639 
+INFO:root:---------------------------id Ts0058------------------------
+INFO:root:pred_img_np shape:
+(430, 457, 371)
+INFO:root:Process Ts0058,time spent:34.7305109500885 
+INFO:root:---------------------------id Ts0059------------------------
+INFO:root:pred_img_np shape:
+(496, 378, 347)
+INFO:root:Process Ts0059,time spent:32.44072484970093 
+INFO:root:---------------------------id Ts0060------------------------
+INFO:root:pred_img_np shape:
+(469, 413, 349)
+INFO:root:Process Ts0060,time spent:34.45961928367615 
+INFO:root:---------------------------id Ts0061------------------------
+INFO:root:pred_img_np shape:
+(428, 463, 423)
+INFO:root:Process Ts0061,time spent:35.67100977897644 
+INFO:root:---------------------------id Ts0062------------------------
+INFO:root:pred_img_np shape:
+(416, 426, 369)
+INFO:root:Process Ts0062,time spent:30.923927068710327 
+INFO:root:---------------------------id Ts0063------------------------
+INFO:root:pred_img_np shape:
+(386, 469, 404)
+INFO:root:Process Ts0063,time spent:36.51926302909851 
+INFO:root:---------------------------id Ts0064------------------------
+INFO:root:pred_img_np shape:
+(398, 436, 363)
+INFO:root:Process Ts0064,time spent:30.906172513961792 
+INFO:root:---------------------------id Ts0065------------------------
+INFO:root:pred_img_np shape:
+(425, 512, 459)
+INFO:root:Process Ts0065,time spent:49.277891874313354 
+INFO:root:---------------------------id Ts0066------------------------
+INFO:root:pred_img_np shape:
+(437, 449, 371)
+INFO:root:Process Ts0066,time spent:38.5944926738739 
+INFO:root:---------------------------id Ts0067------------------------
+INFO:root:pred_img_np shape:
+(452, 442, 362)
+INFO:root:Process Ts0067,time spent:36.93390464782715 
+INFO:root:---------------------------id Ts0068------------------------
+INFO:root:pred_img_np shape:
+(509, 437, 383)
+INFO:root:Process Ts0068,time spent:39.731804847717285 
+INFO:root:---------------------------id Ts0069------------------------
+INFO:root:pred_img_np shape:
+(447, 422, 366)
+INFO:root:Process Ts0069,time spent:34.599491119384766 
+INFO:root:---------------------------id Ts0070------------------------
+INFO:root:pred_img_np shape:
+(273, 409, 333)
+INFO:root:Process Ts0070,time spent:16.428064823150635 
+INFO:root:---------------------------id Ts0071------------------------
+INFO:root:pred_img_np shape:
+(479, 431, 342)
+INFO:root:Process Ts0071,time spent:34.90933394432068 
+INFO:root:---------------------------id Ts0072------------------------
+INFO:root:pred_img_np shape:
+(301, 434, 377)
+INFO:root:Process Ts0072,time spent:24.945643186569214 
+INFO:root:---------------------------id Ts0073------------------------
+INFO:root:pred_img_np shape:
+(454, 437, 352)
+INFO:root:Process Ts0073,time spent:37.084442138671875 
+INFO:root:---------------------------id Ts0074------------------------
+INFO:root:pred_img_np shape:
+(438, 418, 344)
+INFO:root:Process Ts0074,time spent:32.58037710189819 
+INFO:root:---------------------------id Ts0075------------------------
+INFO:root:pred_img_np shape:
+(281, 435, 357)
+INFO:root:Process Ts0075,time spent:21.051122188568115 
+INFO:root:---------------------------id Ts0076------------------------
+INFO:root:pred_img_np shape:
+(470, 440, 369)
+INFO:root:Process Ts0076,time spent:38.338616132736206 
+INFO:root:---------------------------id Ts0077------------------------
+INFO:root:pred_img_np shape:
+(464, 454, 363)
+INFO:root:Process Ts0077,time spent:36.38696908950806 
+INFO:root:---------------------------id Ts0078------------------------
+INFO:root:pred_img_np shape:
+(318, 450, 363)
+INFO:root:Process Ts0078,time spent:25.12563419342041 
+INFO:root:---------------------------id Ts0079------------------------
+INFO:root:pred_img_np shape:
+(448, 414, 376)
+INFO:root:Process Ts0079,time spent:34.648545026779175 
+INFO:root:---------------------------id Ts0080------------------------
+INFO:root:pred_img_np shape:
+(281, 438, 381)
+INFO:root:Process Ts0080,time spent:21.444119930267334 
+INFO:root:---------------------------id Ts0081------------------------
+INFO:root:pred_img_np shape:
+(451, 456, 370)
+INFO:root:Process Ts0081,time spent:38.78456139564514 
+INFO:root:---------------------------id Ts0082------------------------
+INFO:root:pred_img_np shape:
+(481, 383, 332)
+INFO:root:Process Ts0082,time spent:29.479851484298706 
+INFO:root:---------------------------id Ts0083------------------------
+INFO:root:pred_img_np shape:
+(494, 482, 399)
+INFO:root:Process Ts0083,time spent:48.40048623085022 
+INFO:root:---------------------------id Ts0084------------------------
+INFO:root:pred_img_np shape:
+(291, 478, 382)
+INFO:root:Process Ts0084,time spent:25.568004846572876 
+INFO:root:---------------------------id Ts0085------------------------
+INFO:root:pred_img_np shape:
+(454, 418, 340)
+INFO:root:Process Ts0085,time spent:33.71159648895264 
+INFO:root:---------------------------id Ts0086------------------------
+INFO:root:pred_img_np shape:
+(303, 437, 359)
+INFO:root:Process Ts0086,time spent:20.073915004730225 
+INFO:root:---------------------------id Ts0087------------------------
+INFO:root:pred_img_np shape:
+(432, 423, 367)
+INFO:root:Process Ts0087,time spent:31.500550270080566 
+INFO:root:---------------------------id Ts0088------------------------
+INFO:root:pred_img_np shape:
+(470, 432, 375)
+INFO:root:Process Ts0088,time spent:35.1391704082489 
+INFO:root:---------------------------id Ts0089------------------------
+INFO:root:pred_img_np shape:
+(285, 473, 403)
+INFO:root:Process Ts0089,time spent:24.797520637512207 
+INFO:root:---------------------------id Ts0090------------------------
+INFO:root:pred_img_np shape:
+(319, 419, 347)
+INFO:root:Process Ts0090,time spent:22.69631314277649 
+INFO:root:---------------------------id Ts0091------------------------
+INFO:root:pred_img_np shape:
+(370, 452, 404)
+INFO:root:Process Ts0091,time spent:34.44735860824585 
+INFO:root:---------------------------id Ts0092------------------------
+INFO:root:pred_img_np shape:
+(386, 413, 398)
+INFO:root:Process Ts0092,time spent:32.14722919464111 
+INFO:root:---------------------------id Ts0093------------------------
+INFO:root:pred_img_np shape:
+(265, 417, 386)
+INFO:root:Process Ts0093,time spent:21.235882997512817 
+INFO:root:---------------------------id Ts0094------------------------
+INFO:root:pred_img_np shape:
+(353, 448, 387)
+INFO:root:Process Ts0094,time spent:31.936789751052856 
+INFO:root:---------------------------id Ts0095------------------------
+INFO:root:pred_img_np shape:
+(373, 474, 404)
+INFO:root:Process Ts0095,time spent:33.56469798088074 
+INFO:root:---------------------------id Ts0096------------------------
+INFO:root:pred_img_np shape:
+(353, 480, 398)
+INFO:root:Process Ts0096,time spent:30.806349992752075 
+INFO:root:---------------------------id Ts0097------------------------
+INFO:root:pred_img_np shape:
+(383, 442, 380)
+INFO:root:Process Ts0097,time spent:29.5539288520813 
+INFO:root:---------------------------id Ts0098------------------------
+INFO:root:pred_img_np shape:
+(395, 453, 395)
+INFO:root:Process Ts0098,time spent:36.71745300292969 
+INFO:root:---------------------------id Ts0099------------------------
+INFO:root:pred_img_np shape:
+(353, 498, 426)
+INFO:root:Process Ts0099,time spent:36.62200665473938 
+INFO:root:---------------------------id Ts0100------------------------
+INFO:root:pred_img_np shape:
+(293, 428, 351)
+INFO:root:Process Ts0100,time spent:22.441793203353882 
+INFO:root:---------------------------id Ts0101------------------------
+INFO:root:pred_img_np shape:
+(358, 444, 361)
+INFO:root:Process Ts0101,time spent:25.353347778320312 
+INFO:root:---------------------------id Ts0102------------------------
+INFO:root:pred_img_np shape:
+(353, 357, 295)
+INFO:root:Process Ts0102,time spent:19.19812273979187 
+INFO:root:---------------------------id Ts0103------------------------
+INFO:root:pred_img_np shape:
+(416, 462, 373)
+INFO:root:Process Ts0103,time spent:33.79088592529297 
+INFO:root:---------------------------id Ts0104------------------------
+INFO:root:pred_img_np shape:
+(398, 500, 403)
+INFO:root:Process Ts0104,time spent:41.359455585479736 
+INFO:root:---------------------------id Ts0105------------------------
+INFO:root:pred_img_np shape:
+(395, 436, 371)
+INFO:root:Process Ts0105,time spent:28.43760585784912 
+INFO:root:---------------------------id Ts0106------------------------
+INFO:root:pred_img_np shape:
+(393, 448, 397)
+INFO:root:Process Ts0106,time spent:36.11587691307068 
+INFO:root:---------------------------id Ts0107------------------------
+INFO:root:pred_img_np shape:
+(420, 495, 429)
+INFO:root:Process Ts0107,time spent:39.66453814506531 
+INFO:root:---------------------------id Ts0108------------------------
+INFO:root:pred_img_np shape:
+(402, 468, 400)
+INFO:root:Process Ts0108,time spent:36.463358879089355 
+INFO:root:---------------------------id Ts0109------------------------
+INFO:root:pred_img_np shape:
+(243, 469, 428)
+INFO:root:Process Ts0109,time spent:23.664528608322144 
+INFO:root:---------------------------id Ts0110------------------------
+INFO:root:pred_img_np shape:
+(465, 443, 367)
+INFO:root:Process Ts0110,time spent:38.42123794555664 
+INFO:root:---------------------------id Ts0111------------------------
+INFO:root:pred_img_np shape:
+(398, 467, 404)
+INFO:root:Process Ts0111,time spent:35.586153507232666 
+INFO:root:---------------------------id Ts0112------------------------
+INFO:root:pred_img_np shape:
+(384, 416, 347)
+INFO:root:Process Ts0112,time spent:26.339030265808105 
+INFO:root:---------------------------id Ts0113------------------------
+INFO:root:pred_img_np shape:
+(368, 451, 366)
+INFO:root:Process Ts0113,time spent:25.298813343048096 
+INFO:root:---------------------------id Ts0114------------------------
+INFO:root:pred_img_np shape:
+(393, 449, 381)
+INFO:root:Process Ts0114,time spent:33.559165716171265 
+INFO:root:---------------------------id Ts0115------------------------
+INFO:root:pred_img_np shape:
+(415, 455, 374)
+INFO:root:Process Ts0115,time spent:33.36066222190857 
+INFO:root:---------------------------id Ts0116------------------------
+INFO:root:pred_img_np shape:
+(391, 423, 349)
+INFO:root:Process Ts0116,time spent:29.565173864364624 
+INFO:root:---------------------------id Ts0117------------------------
+INFO:root:pred_img_np shape:
+(385, 496, 420)
+INFO:root:Process Ts0117,time spent:41.03226399421692 
+INFO:root:---------------------------id Ts0118------------------------
+INFO:root:pred_img_np shape:
+(437, 429, 363)
+INFO:root:Process Ts0118,time spent:27.84716534614563 
+INFO:root:---------------------------id Ts0119------------------------
+INFO:root:pred_img_np shape:
+(378, 506, 421)
+INFO:root:Process Ts0119,time spent:37.87029576301575 
+INFO:root:---------------------------id Ts0120------------------------
+INFO:root:pred_img_np shape:
+(304, 442, 374)
+INFO:root:Process Ts0120,time spent:24.91891050338745 
+INFO:root:---------------------------id Ts0121------------------------
+INFO:root:pred_img_np shape:
+(353, 509, 427)
+INFO:root:Process Ts0121,time spent:35.94523644447327 
+INFO:root:---------------------------id Ts0122------------------------
+INFO:root:pred_img_np shape:
+(383, 503, 432)
+INFO:root:Process Ts0122,time spent:37.521618604660034 
+INFO:root:---------------------------id Ts0123------------------------
+INFO:root:pred_img_np shape:
+(414, 385, 350)
+INFO:root:Process Ts0123,time spent:24.682162046432495 
+INFO:root:---------------------------id Ts0124------------------------
+INFO:root:pred_img_np shape:
+(360, 496, 435)
+INFO:root:Process Ts0124,time spent:39.80209398269653 
+INFO:root:---------------------------id Ts0125------------------------
+INFO:root:pred_img_np shape:
+(393, 398, 387)
+INFO:root:Process Ts0125,time spent:32.507254123687744 
+INFO:root:---------------------------id Ts0126------------------------
+INFO:root:pred_img_np shape:
+(348, 503, 402)
+INFO:root:Process Ts0126,time spent:36.46223592758179 
+INFO:root:---------------------------id Ts0127------------------------
+INFO:root:pred_img_np shape:
+(414, 459, 402)
+INFO:root:Process Ts0127,time spent:38.493704319000244 
+INFO:root:---------------------------id Ts0128------------------------
+INFO:root:pred_img_np shape:
+(366, 455, 402)
+INFO:root:Process Ts0128,time spent:28.80421495437622 
+INFO:root:---------------------------id Ts0129------------------------
+INFO:root:pred_img_np shape:
+(353, 486, 390)
+INFO:root:Process Ts0129,time spent:35.49484968185425 
+INFO:root:---------------------------id Ts0130------------------------
+INFO:root:pred_img_np shape:
+(303, 383, 328)
+INFO:root:Process Ts0130,time spent:17.595202207565308 
+INFO:root:---------------------------id Ts0131------------------------
+INFO:root:pred_img_np shape:
+(365, 443, 374)
+INFO:root:Process Ts0131,time spent:30.051814556121826 
+INFO:root:---------------------------id Ts0132------------------------
+INFO:root:pred_img_np shape:
+(467, 445, 366)
+INFO:root:Process Ts0132,time spent:32.813761472702026 
+INFO:root:---------------------------id Ts0133------------------------
+INFO:root:pred_img_np shape:
+(353, 499, 407)
+INFO:root:Process Ts0133,time spent:36.086233615875244 
+INFO:root:---------------------------id Ts0134------------------------
+INFO:root:pred_img_np shape:
+(408, 512, 403)
+INFO:root:Process Ts0134,time spent:38.6792311668396 
+INFO:root:---------------------------id Ts0135------------------------
+INFO:root:pred_img_np shape:
+(451, 393, 353)
+INFO:root:Process Ts0135,time spent:32.303343057632446 
+INFO:root:---------------------------id Ts0136------------------------
+INFO:root:pred_img_np shape:
+(433, 441, 381)
+INFO:root:Process Ts0136,time spent:37.042988777160645 
+INFO:root:---------------------------id Ts0137------------------------
+INFO:root:pred_img_np shape:
+(431, 485, 405)
+INFO:root:Process Ts0137,time spent:38.48048424720764 
+INFO:root:---------------------------id Ts0138------------------------
+INFO:root:pred_img_np shape:
+(375, 488, 402)
+INFO:root:Process Ts0138,time spent:36.691190004348755 
+INFO:root:---------------------------id Ts0139------------------------
+INFO:root:pred_img_np shape:
+(405, 447, 399)
+INFO:root:Process Ts0139,time spent:37.855525732040405 
+INFO:root:---------------------------id Ts0140------------------------
+INFO:root:pred_img_np shape:
+(312, 422, 366)
+INFO:root:Process Ts0140,time spent:19.003326654434204 
+INFO:root:---------------------------id Ts0141------------------------
+INFO:root:pred_img_np shape:
+(413, 444, 356)
+INFO:root:Process Ts0141,time spent:33.51575183868408 
+INFO:root:---------------------------id Ts0142------------------------
+INFO:root:pred_img_np shape:
+(353, 435, 327)
+INFO:root:Process Ts0142,time spent:24.81628656387329 
+INFO:root:---------------------------id Ts0143------------------------
+INFO:root:pred_img_np shape:
+(353, 443, 360)
+INFO:root:Process Ts0143,time spent:28.95335865020752 
+INFO:root:---------------------------id Ts0144------------------------
+INFO:root:pred_img_np shape:
+(353, 489, 411)
+INFO:root:Process Ts0144,time spent:35.983341693878174 
+INFO:root:---------------------------id Ts0145------------------------
+INFO:root:pred_img_np shape:
+(220, 501, 403)
+INFO:root:Process Ts0145,time spent:19.070260286331177 
+INFO:root:---------------------------id Ts0146------------------------
+INFO:root:pred_img_np shape:
+(430, 395, 326)
+INFO:root:Process Ts0146,time spent:26.49630570411682 
+INFO:root:---------------------------id Ts0147------------------------
+INFO:root:pred_img_np shape:
+(353, 487, 439)
+INFO:root:Process Ts0147,time spent:39.59135603904724 
+INFO:root:---------------------------id Ts0148------------------------
+INFO:root:pred_img_np shape:
+(406, 429, 361)
+INFO:root:Process Ts0148,time spent:31.501824378967285 
+INFO:root:---------------------------id Ts0149------------------------
+INFO:root:pred_img_np shape:
+(413, 412, 349)
+INFO:root:Process Ts0149,time spent:29.872586965560913 
+INFO:root:---------------------------id Ts0150------------------------
+INFO:root:pred_img_np shape:
+(298, 312, 294)
+INFO:root:Process Ts0150,time spent:14.444504022598267 
+INFO:root:---------------------------id Ts0151------------------------
+INFO:root:pred_img_np shape:
+(308, 403, 330)
+INFO:root:Process Ts0151,time spent:19.66718864440918 
+INFO:root:---------------------------id Ts0152------------------------
+INFO:root:pred_img_np shape:
+(354, 482, 420)
+INFO:root:Process Ts0152,time spent:36.03686261177063 

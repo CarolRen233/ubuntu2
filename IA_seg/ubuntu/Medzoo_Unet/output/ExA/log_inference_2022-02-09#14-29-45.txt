@@ -1,0 +1,3 @@
+INFO:root:Namespace(augmentation=False, config='inference_ExA_config', cuda=True, device='0', mode='inference', save='/home/ubuntu/codes/MyMedicalZoo/output/ExA')
+INFO:root:config loaded:
+{'data': {'dataset': 'ExA'}, 'inference': {'just_head': False, 'head_flag': '_headcut_', 'pkl_info_path': '/home/ubuntu/codes/radiology/file/after_headcut_properties_A.pkl', 'pretrained': '/home/ubuntu/codes/MyMedicalZoo/output/exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}}

@@ -1,0 +1,10 @@
+INFO:root:Namespace(augmentation=False, config='inference_ExA_config', cuda=True, device='0', mode='inference', save='/home/ubuntu/codes/MyMedicalZoo/output/ExA')
+INFO:root:config loaded:
+{'data': {'dataset': 'ExA', 'data_num': 71, 'train_num': 0, 'test_num': 71, 'instances_csv_path': None, 'csv_info_path': None, 'brain_file': None, 'data_dir': '/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut', 'patch_dir': None, 'split_fold_valid': None, 'split_fold_train': None, 'hu_values': [[0, 100], [100, 200], [200, 800]], 'train_pos_neg_ratio': [1, 1], 'eval_pos_neg_ratio': [1, 1], 'patch_size': [96, 96, 96], 'overlap_step': [48, 48, 48]}, 'train': {'train_save_dir': '/root/workspace/renyan/output/Medzoo', 'model': 'UNET3D', 'nEpochs': 1000, 'classes': 2, 'inChannels': 3, 'inModalities': 3, 'dim': '(96, 96, 96)', 'terminal_show_freq': 50, 'lr': 0.01, 'opt': 'sgd', 'weight_decay': 1e-10, 'batchSz': 4}, 'inference': {'just_head': False, 'head_flag': '_headcut_', 'pkl_info_path': '/home/ubuntu/codes/radiology/file/after_headcut_properties_A.pkl', 'pretrained': '/home/ubuntu/codes/MyMedicalZoo/output/exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}, 'eval': {'gt_file_or_folder': 'F:\\saved_models\\Medzoo\\IACTA_UNET3D\\1\\fold_1\\fold_1_BEST_Brain__inference_k_7_a_30_t_1', 'metrics': ['ap', 'auc', 'precision', 'recall', 'dsc', 'hd95', 'per_target_precision', 'per_target_recall'], 'curves': ['pr', 'roc'], 'num_thresholds': 100, 'thresholds_type': 'uline', 'probability_threshold': 0.5}}
+INFO:root:---------------------------id ExtA0010------------------------
+INFO:root:pred_img_np shape:
+(491, 512, 512)
+INFO:root:Process ExtA0010,time spent:56.194923877716064 
+INFO:root:---------------------------id ExtA0011------------------------
+INFO:root:pred_img_np shape:
+(665, 870, 870)

@@ -1,0 +1,48 @@
+INFO:root:use device 0
+INFO:root:gt_file_or_folder: /home/ubuntu/codes/radiology/3nnUnet/nnUNet_output/nnUNet_raw_data/Task172_ExA/labelsTs
+INFO:root:pred_file_or_folder: /home/ubuntu/codes/radiology/3nnUnet/nnUNet_output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task172_ExA/refined
+INFO:root:mask or probability distribution: mask
+INFO:root:Begin to scan gt_folder_or_file /home/ubuntu/codes/radiology/3nnUnet/nnUNet_output/nnUNet_raw_data/Task172_ExA/labelsTs...
+INFO:root:Begin to scan pred_folder_or_file /home/ubuntu/codes/radiology/3nnUnet/nnUNet_output/nnUNet_trained_models/nnUNet/3d_fullres/Task152_CellPress110/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/Task172_ExA/refined...
+INFO:root:instance number: 71. start evaluating...
+INFO:root:===================evaluate headcut====================
+INFO:root:===metrics_dict===
+{'ap': AP(), 'auc': AUC(), 'precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'sensitivity': Sensitivity(
+  (cm): _ConfusionMatrix()
+), 'specificity': Specificity(
+  (cm): _ConfusionMatrix()
+), 'dsc': DSC(
+  (cm): _ConfusionMatrix()
+), 'hd95': HD95(), 'tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+), 'tn': TrueNegative(
+  (cm): _ConfusionMatrix()
+), 'per_target_precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'per_target_recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'per_target_tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+)}
+======curves_dict====
+{'pr': AP(), 'roc': AUC()}
+INFO:root:(1 in 71) ExtA0001:	ap: 0.6197	auc: 0.7793	precision: 0.9600	recall: 0.5586	sensitivity: 0.5586	specificity: 1.0000	dsc: 0.7063	hd95: 2.0616	tp: 624	fp: 26	fn: 493	tn: 61243957	per_target_precision: 1.0000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 0	per_target_fn: 0
+INFO:root:(2 in 71) ExtA0002:	ap: 0.0000	auc: 0.5000	precision: 0.0000	recall: 0.0000	sensitivity: 0.0000	specificity: 1.0000	dsc: 0.0000	hd95: 87.7044	tp: 0	fp: 141	fn: 2238	tn: 66901005	per_target_precision: 0.0000	per_target_recall: 0.0000	per_target_tp: 0	per_target_fp: 1	per_target_fn: 1
+INFO:root:(3 in 71) ExtA0003:	ap: 0.5441	auc: 0.8779	precision: 0.7103	recall: 0.7559	sensitivity: 0.7559	specificity: 1.0000	dsc: 0.7324	hd95: 53.7889	tp: 613	fp: 250	fn: 198	tn: 67002349	per_target_precision: 0.5000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 1	per_target_fn: 0
+INFO:root:(4 in 71) ExtA0004:	ap: 0.0000	auc: 0.5000	precision: 0.0000	recall: 0.0000	sensitivity: 0.0000	specificity: 1.0000	dsc: 0.0000	hd95: 81.1197	tp: 0	fp: 461	fn: 4954	tn: 51962085	per_target_precision: 0.0000	per_target_recall: 0.0000	per_target_tp: 0	per_target_fp: 1	per_target_fn: 1
+INFO:root:(5 in 71) ExtA0005:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 36351183	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(6 in 71) ExtA0006:	ap: 0.6600	auc: 0.8607	precision: 0.9593	recall: 0.7214	sensitivity: 0.7214	specificity: 1.0000	dsc: 0.8235	hd95: 0.7071	tp: 919	fp: 39	fn: 355	tn: 58323487	per_target_precision: 1.0000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 0	per_target_fn: 0
+INFO:root:(7 in 71) ExtA0007:	ap: 0.5000	auc: 0.7500	precision: 0.5000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.5000	hd95: 1.0000	tp: 0	fp: 0	fn: 0	tn: 61616295	per_target_precision: 0.5000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 0	per_target_fn: 0
+INFO:root:(8 in 71) ExtA0008:	ap: 0.3750	auc: 0.7500	precision: 0.0000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.0000	hd95: 1.0000	tp: 0	fp: 107	fn: 0	tn: 60256155	per_target_precision: 0.0000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 1	per_target_fn: 0

@@ -1,0 +1,129 @@
+INFO:root:Namespace(augmentation=False, config='inference_XJ18_headcut', cuda=True, device='0', mode='inference', save='F:\\codes\\ubuntu\\Medzoo_Unet\\output/XJ18_headcut')
+INFO:root:config loaded:
+{'data': {'dataset': 'XJ18_headcut', 'data_num': 18, 'train_num': 0, 'test_num': 18, 'instances_csv_path': None, 'csv_info_path': None, 'brain_file': None, 'data_dir': None, 'patch_dir': None, 'split_fold_valid': None, 'split_fold_train': None, 'hu_values': [[0, 100], [100, 200], [200, 800]], 'train_pos_neg_ratio': [1, 1], 'eval_pos_neg_ratio': [1, 1], 'patch_size': [96, 96, 96], 'overlap_step': [48, 48, 48]}, 'train': {'train_save_dir': '/root/workspace/renyan/output/Medzoo', 'model': 'UNET3D', 'nEpochs': 1000, 'classes': 2, 'inChannels': 3, 'inModalities': 3, 'dim': '(96, 96, 96)', 'terminal_show_freq': 50, 'lr': 0.01, 'opt': 'sgd', 'weight_decay': 1e-10, 'batchSz': 4}, 'inference': {'just_head': True, 'head_flag': '_headcut_', 'pkl_info_path': 'F:/codes/ubuntu/nnUnet/file/after_headcut_properties_XJ18.pkl', 'pretrained': 'F:\\codes\\ubuntu\\Medzoo_Unet\\output\\exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}, 'eval': {'gt_file_or_folder': 'F:\\saved_models\\Medzoo\\IACTA_UNET3D\\1\\fold_1\\fold_1_BEST_Brain__inference_k_7_a_30_t_1', 'metrics': ['ap', 'auc', 'precision', 'recall', 'dsc', 'hd95', 'per_target_precision', 'per_target_recall'], 'curves': ['pr', 'roc'], 'num_thresholds': 100, 'thresholds_type': 'uline', 'probability_threshold': 0.5}}
+INFO:root:---------------------------id XJTs0000------------------------
+INFO:root:pred_img_np shape:
+(265, 400, 358)
+INFO:root:Loading XJTs0000,time spent:1.50616455078125 
+INFO:root:Process XJTs0000,time spent:15.902063131332397 
+INFO:root:Refine XJTs0000,time spent:1.5388762950897217 
+INFO:root:---------------------------id XJTs0003------------------------
+INFO:root:pred_img_np shape:
+(366, 459, 376)
+INFO:root:Loading XJTs0003,time spent:2.1994948387145996 
+INFO:root:Process XJTs0003,time spent:24.22708249092102 
+INFO:root:Refine XJTs0003,time spent:3.2592592239379883 
+INFO:root:---------------------------id XJTs0010------------------------
+INFO:root:pred_img_np shape:
+(411, 429, 378)
+INFO:root:Loading XJTs0010,time spent:2.344888210296631 
+INFO:root:Process XJTs0010,time spent:23.631680011749268 
+INFO:root:Refine XJTs0010,time spent:2.703747510910034 
+INFO:root:---------------------------id XJTs0028------------------------
+INFO:root:pred_img_np shape:
+(299, 441, 369)
+INFO:root:Loading XJTs0028,time spent:1.7402842044830322 
+INFO:root:Process XJTs0028,time spent:19.145710706710815 
+INFO:root:Refine XJTs0028,time spent:1.9308230876922607 
+INFO:root:---------------------------id XJTs0033------------------------
+INFO:root:pred_img_np shape:
+(386, 382, 369)
+INFO:root:Loading XJTs0033,time spent:1.9118621349334717 
+INFO:root:Process XJTs0033,time spent:20.66862416267395 
+INFO:root:Refine XJTs0033,time spent:2.4594082832336426 
+INFO:root:---------------------------id XJTs0001------------------------
+INFO:root:pred_img_np shape:
+(265, 419, 353)
+INFO:root:Loading XJTs0001,time spent:1.381716012954712 
+INFO:root:Process XJTs0001,time spent:14.48819875717163 
+INFO:root:Refine XJTs0001,time spent:1.5707874298095703 
+INFO:root:---------------------------id XJTs0004------------------------
+INFO:root:pred_img_np shape:
+(368, 487, 404)
+INFO:root:Loading XJTs0004,time spent:2.4304351806640625 
+INFO:root:Process XJTs0004,time spent:27.76360058784485 
+INFO:root:Refine XJTs0004,time spent:5.1272382736206055 
+INFO:root:---------------------------id XJTs0015------------------------
+INFO:root:pred_img_np shape:
+(435, 415, 355)
+INFO:root:Loading XJTs0015,time spent:2.2970731258392334 
+INFO:root:Process XJTs0015,time spent:25.05087399482727 
+INFO:root:Refine XJTs0015,time spent:2.9151291847229004 
+INFO:root:---------------------------id XJTs0030------------------------
+INFO:root:pred_img_np shape:
+(299, 442, 369)
+INFO:root:Loading XJTs0030,time spent:1.7524302005767822 
+INFO:root:Process XJTs0030,time spent:19.189605474472046 
+INFO:root:Refine XJTs0030,time spent:2.7456214427948 
+INFO:root:---------------------------id XJTs0034------------------------
+INFO:root:pred_img_np shape:
+(406, 429, 361)
+INFO:root:Loading XJTs0034,time spent:2.2908551692962646 
+INFO:root:Process XJTs0034,time spent:23.654619932174683 
+INFO:root:Refine XJTs0034,time spent:2.838386297225952 
+INFO:root:---------------------------id XJTs0002------------------------
+INFO:root:pred_img_np shape:
+(265, 417, 368)
+INFO:root:Loading XJTs0002,time spent:1.4334263801574707 
+INFO:root:Process XJTs0002,time spent:14.664738655090332 
+INFO:root:Refine XJTs0002,time spent:1.6186370849609375 
+INFO:root:---------------------------id XJTs0005------------------------
+INFO:root:pred_img_np shape:
+(387, 464, 405)
+INFO:root:Loading XJTs0005,time spent:2.558089256286621 
+INFO:root:Process XJTs0005,time spent:28.2662570476532 
+INFO:root:Refine XJTs0005,time spent:4.236630916595459 
+INFO:root:---------------------------id XJTs0023------------------------
+INFO:root:pred_img_np shape:
+(300, 444, 358)
+INFO:root:Loading XJTs0023,time spent:1.72855806350708 
+INFO:root:Process XJTs0023,time spent:19.037004232406616 
+INFO:root:Refine XJTs0023,time spent:2.1631884574890137 
+INFO:root:---------------------------id XJTs0032------------------------
+INFO:root:pred_img_np shape:
+(372, 410, 334)
+INFO:root:Loading XJTs0032,time spent:1.8037183284759521 
+INFO:root:Process XJTs0032,time spent:18.37174701690674 
+INFO:root:Refine XJTs0032,time spent:3.506586790084839 
+INFO:root:---------------------------id XJTs0035------------------------
+INFO:root:pred_img_np shape:
+(375, 425, 347)
+INFO:root:Loading XJTs0035,time spent:2.00077223777771 
+INFO:root:Process XJTs0035,time spent:20.91097402572632 
+INFO:root:Refine XJTs0035,time spent:2.2070846557617188 
+INFO:root:---------------------------id XJTs0037------------------------
+INFO:root:pred_img_np shape:
+(445, 431, 351)
+INFO:root:Loading XJTs0037,time spent:2.390223264694214 
+INFO:root:Process XJTs0037,time spent:26.027202606201172 
+INFO:root:Refine XJTs0037,time spent:3.0598368644714355 
+INFO:root:---------------------------id XJTs0039------------------------
+INFO:root:pred_img_np shape:
+(387, 445, 355)
+INFO:root:Loading XJTs0039,time spent:2.150639533996582 
+INFO:root:Process XJTs0039,time spent:25.255327463150024 
+INFO:root:Refine XJTs0039,time spent:3.135591506958008 
+INFO:root:---------------------------id XJTs0041------------------------
+INFO:root:pred_img_np shape:
+(453, 422, 371)
+INFO:root:Loading XJTs0041,time spent:2.5143845081329346 
+INFO:root:Process XJTs0041,time spent:26.68050241470337 
+INFO:root:Refine XJTs0041,time spent:4.546794414520264 
+INFO:root:---------------------------id XJTs0046------------------------
+INFO:root:pred_img_np shape:
+(432, 410, 357)
+INFO:root:Loading XJTs0046,time spent:2.2432353496551514 
+INFO:root:Process XJTs0046,time spent:23.916887044906616 
+INFO:root:Refine XJTs0046,time spent:3.2373178005218506 
+INFO:root:---------------------------id XJTs0053------------------------
+INFO:root:pred_img_np shape:
+(452, 436, 341)
+INFO:root:Loading XJTs0053,time spent:2.3680429458618164 
+INFO:root:Process XJTs0053,time spent:28.316063404083252 
+INFO:root:Refine XJTs0053,time spent:2.7047464847564697 
+INFO:root:---------------------------id XJTs0065------------------------
+INFO:root:pred_img_np shape:
+(452, 425, 354)
+INFO:root:Loading XJTs0065,time spent:2.428755283355713 
+INFO:root:Process XJTs0065,time spent:26.61368203163147 
+INFO:root:Refine XJTs0065,time spent:4.3483359813690186 

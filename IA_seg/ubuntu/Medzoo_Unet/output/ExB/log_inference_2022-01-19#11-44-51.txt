@@ -1,0 +1,271 @@
+INFO:root:Namespace(augmentation=False, config='inference_ExB_config', cuda=True, device='0', mode='inference', save='/home/ubuntu/codes/MyMedicalZoo/output/ExB')
+INFO:root:config loaded:
+{'data': {'dataset': 'ExB', 'data_num': 71, 'train_num': 0, 'test_num': 71, 'instances_csv_path': None, 'csv_info_path': None, 'brain_file': None, 'data_dir': '/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut', 'patch_dir': None, 'split_fold_valid': None, 'split_fold_train': None, 'hu_values': [[0, 100], [100, 200], [200, 800]], 'train_pos_neg_ratio': [1, 1], 'eval_pos_neg_ratio': [1, 1], 'patch_size': [96, 96, 96], 'overlap_step': [48, 48, 48]}, 'train': {'train_save_dir': '/root/workspace/renyan/output/Medzoo', 'model': 'UNET3D', 'nEpochs': 1000, 'classes': 2, 'inChannels': 3, 'inModalities': 3, 'dim': '(96, 96, 96)', 'terminal_show_freq': 50, 'lr': 0.01, 'opt': 'sgd', 'weight_decay': 1e-10, 'batchSz': 4}, 'inference': {'just_head': True, 'head_flag': '_headcut_', 'pkl_info_path': '/home/ubuntu/codes/radiology/file/after_headcut_properties_B.pkl', 'pretrained': '/home/ubuntu/codes/MyMedicalZoo/output/exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}, 'eval': {'gt_file_or_folder': 'F:\\saved_models\\Medzoo\\IACTA_UNET3D\\1\\fold_1\\fold_1_BEST_Brain__inference_k_7_a_30_t_1', 'metrics': ['ap', 'auc', 'precision', 'recall', 'dsc', 'hd95', 'per_target_precision', 'per_target_recall'], 'curves': ['pr', 'roc'], 'num_thresholds': 100, 'thresholds_type': 'uline', 'probability_threshold': 0.5}}
+INFO:root:---------------------------id ExtB0001------------------------
+INFO:root:pred_img_np shape:
+(421, 389, 337)
+INFO:root:Process ExtB0001,time spent:30.656384706497192 
+INFO:root:---------------------------id ExtB0002------------------------
+INFO:root:pred_img_np shape:
+(387, 397, 320)
+INFO:root:Process ExtB0002,time spent:21.712894201278687 
+INFO:root:---------------------------id ExtB0003------------------------
+INFO:root:pred_img_np shape:
+(416, 401, 330)
+INFO:root:Process ExtB0003,time spent:25.763243913650513 
+INFO:root:---------------------------id ExtB0004------------------------
+INFO:root:pred_img_np shape:
+(407, 389, 330)
+INFO:root:Process ExtB0004,time spent:25.883379459381104 
+INFO:root:---------------------------id ExtB0005------------------------
+INFO:root:pred_img_np shape:
+(407, 394, 332)
+INFO:root:Process ExtB0005,time spent:21.70944881439209 
+INFO:root:---------------------------id ExtB0006------------------------
+INFO:root:pred_img_np shape:
+(441, 396, 332)
+INFO:root:Process ExtB0006,time spent:28.160919189453125 
+INFO:root:---------------------------id ExtB0007------------------------
+INFO:root:pred_img_np shape:
+(406, 395, 338)
+INFO:root:Process ExtB0007,time spent:28.595336198806763 
+INFO:root:---------------------------id ExtB0008------------------------
+INFO:root:pred_img_np shape:
+(425, 377, 317)
+INFO:root:Process ExtB0008,time spent:18.970825910568237 
+INFO:root:---------------------------id ExtB0009------------------------
+INFO:root:pred_img_np shape:
+(490, 409, 338)
+INFO:root:Process ExtB0009,time spent:36.74926424026489 
+INFO:root:---------------------------id ExtB0010------------------------
+INFO:root:pred_img_np shape:
+(414, 403, 326)
+INFO:root:Process ExtB0010,time spent:26.707475662231445 
+INFO:root:---------------------------id ExtB0011------------------------
+INFO:root:pred_img_np shape:
+(424, 374, 327)
+INFO:root:Process ExtB0011,time spent:23.460445165634155 
+INFO:root:---------------------------id ExtB0012------------------------
+INFO:root:pred_img_np shape:
+(447, 408, 350)
+INFO:root:Process ExtB0012,time spent:29.134207487106323 
+INFO:root:---------------------------id ExtB0013------------------------
+INFO:root:pred_img_np shape:
+(400, 372, 318)
+INFO:root:Process ExtB0013,time spent:22.44792342185974 
+INFO:root:---------------------------id ExtB0014------------------------
+INFO:root:pred_img_np shape:
+(405, 412, 342)
+INFO:root:Process ExtB0014,time spent:29.113844633102417 
+INFO:root:---------------------------id ExtB0015------------------------
+INFO:root:pred_img_np shape:
+(432, 367, 324)
+INFO:root:Process ExtB0015,time spent:23.024942636489868 
+INFO:root:---------------------------id ExtB0016------------------------
+INFO:root:pred_img_np shape:
+(434, 405, 331)
+INFO:root:Process ExtB0016,time spent:28.456422328948975 
+INFO:root:---------------------------id ExtB0017------------------------
+INFO:root:pred_img_np shape:
+(449, 387, 345)
+INFO:root:Process ExtB0017,time spent:31.746180772781372 
+INFO:root:---------------------------id ExtB0018------------------------
+INFO:root:pred_img_np shape:
+(401, 411, 329)
+INFO:root:Process ExtB0018,time spent:25.023690223693848 
+INFO:root:---------------------------id ExtB0019------------------------
+INFO:root:pred_img_np shape:
+(412, 406, 326)
+INFO:root:Process ExtB0019,time spent:27.551024198532104 
+INFO:root:---------------------------id ExtB0020------------------------
+INFO:root:pred_img_np shape:
+(373, 388, 322)
+INFO:root:Process ExtB0020,time spent:23.400312185287476 
+INFO:root:---------------------------id ExtB0021------------------------
+INFO:root:pred_img_np shape:
+(411, 382, 316)
+INFO:root:Process ExtB0021,time spent:23.769851207733154 
+INFO:root:---------------------------id ExtB0022------------------------
+INFO:root:pred_img_np shape:
+(410, 382, 322)
+INFO:root:Process ExtB0022,time spent:22.913644313812256 
+INFO:root:---------------------------id ExtB0023------------------------
+INFO:root:pred_img_np shape:
+(381, 389, 322)
+INFO:root:Process ExtB0023,time spent:22.928279399871826 
+INFO:root:---------------------------id ExtB0024------------------------
+INFO:root:pred_img_np shape:
+(439, 403, 342)
+INFO:root:Process ExtB0024,time spent:25.671759605407715 
+INFO:root:---------------------------id ExtB0025------------------------
+INFO:root:pred_img_np shape:
+(414, 363, 308)
+INFO:root:Process ExtB0025,time spent:22.03627872467041 
+INFO:root:---------------------------id ExtB0026------------------------
+INFO:root:pred_img_np shape:
+(397, 384, 321)
+INFO:root:Process ExtB0026,time spent:23.472253799438477 
+INFO:root:---------------------------id ExtB0027------------------------
+INFO:root:pred_img_np shape:
+(414, 407, 329)
+INFO:root:Process ExtB0027,time spent:27.008949995040894 
+INFO:root:---------------------------id ExtB0028------------------------
+INFO:root:pred_img_np shape:
+(429, 398, 342)
+INFO:root:Process ExtB0028,time spent:29.693687200546265 
+INFO:root:---------------------------id ExtB0029------------------------
+INFO:root:pred_img_np shape:
+(413, 403, 327)
+INFO:root:Process ExtB0029,time spent:26.59619402885437 
+INFO:root:---------------------------id ExtB0030------------------------
+INFO:root:pred_img_np shape:
+(415, 411, 348)
+INFO:root:Process ExtB0030,time spent:29.603394508361816 
+INFO:root:---------------------------id ExtB0031------------------------
+INFO:root:pred_img_np shape:
+(435, 394, 328)
+INFO:root:Process ExtB0031,time spent:22.86024570465088 
+INFO:root:---------------------------id ExtB0032------------------------
+INFO:root:pred_img_np shape:
+(419, 413, 351)
+INFO:root:Process ExtB0032,time spent:29.699656009674072 
+INFO:root:---------------------------id ExtB0033------------------------
+INFO:root:pred_img_np shape:
+(433, 382, 343)
+INFO:root:Process ExtB0033,time spent:28.60049343109131 
+INFO:root:---------------------------id ExtB0034------------------------
+INFO:root:pred_img_np shape:
+(426, 415, 342)
+INFO:root:Process ExtB0034,time spent:25.54827094078064 
+INFO:root:---------------------------id ExtB0035------------------------
+INFO:root:pred_img_np shape:
+(424, 408, 344)
+INFO:root:Process ExtB0035,time spent:30.645599842071533 
+INFO:root:---------------------------id ExtB0036------------------------
+INFO:root:pred_img_np shape:
+(389, 364, 313)
+INFO:root:Process ExtB0036,time spent:22.126500844955444 
+INFO:root:---------------------------id ExtB0037------------------------
+INFO:root:pred_img_np shape:
+(439, 401, 358)
+INFO:root:Process ExtB0037,time spent:32.90632772445679 
+INFO:root:---------------------------id ExtB0038------------------------
+INFO:root:pred_img_np shape:
+(389, 372, 307)
+INFO:root:Process ExtB0038,time spent:17.21178913116455 
+INFO:root:---------------------------id ExtB0039------------------------
+INFO:root:pred_img_np shape:
+(429, 387, 326)
+INFO:root:Process ExtB0039,time spent:26.438581943511963 
+INFO:root:---------------------------id ExtB0040------------------------
+INFO:root:pred_img_np shape:
+(434, 391, 353)
+INFO:root:Process ExtB0040,time spent:33.211132526397705 
+INFO:root:---------------------------id ExtB0041------------------------
+INFO:root:pred_img_np shape:
+(387, 399, 328)
+INFO:root:Process ExtB0041,time spent:22.561280727386475 
+INFO:root:---------------------------id ExtB0042------------------------
+INFO:root:pred_img_np shape:
+(377, 398, 316)
+INFO:root:Process ExtB0042,time spent:22.203899145126343 
+INFO:root:---------------------------id ExtB0043------------------------
+INFO:root:pred_img_np shape:
+(386, 379, 324)
+INFO:root:Process ExtB0043,time spent:22.64975929260254 
+INFO:root:---------------------------id ExtB0044------------------------
+INFO:root:pred_img_np shape:
+(422, 388, 351)
+INFO:root:Process ExtB0044,time spent:30.290109395980835 
+INFO:root:---------------------------id ExtB0045------------------------
+INFO:root:pred_img_np shape:
+(416, 406, 332)
+INFO:root:Process ExtB0045,time spent:26.647819995880127 
+INFO:root:---------------------------id ExtB0046------------------------
+INFO:root:pred_img_np shape:
+(399, 403, 310)
+INFO:root:Process ExtB0046,time spent:25.25390338897705 
+INFO:root:---------------------------id ExtB0047------------------------
+INFO:root:pred_img_np shape:
+(393, 398, 341)
+INFO:root:Process ExtB0047,time spent:28.66299343109131 
+INFO:root:---------------------------id ExtB0048------------------------
+INFO:root:pred_img_np shape:
+(410, 412, 349)
+INFO:root:Process ExtB0048,time spent:29.581082582473755 
+INFO:root:---------------------------id ExtB0049------------------------
+INFO:root:pred_img_np shape:
+(388, 378, 343)
+INFO:root:Process ExtB0049,time spent:23.49323606491089 
+INFO:root:---------------------------id ExtB0050------------------------
+INFO:root:pred_img_np shape:
+(409, 384, 316)
+INFO:root:Process ExtB0050,time spent:23.615471124649048 
+INFO:root:---------------------------id ExtB0051------------------------
+INFO:root:pred_img_np shape:
+(413, 373, 329)
+INFO:root:Process ExtB0051,time spent:23.48608422279358 
+INFO:root:---------------------------id ExtB0052------------------------
+INFO:root:pred_img_np shape:
+(429, 394, 337)
+INFO:root:Process ExtB0052,time spent:29.73223567008972 
+INFO:root:---------------------------id ExtB0053------------------------
+INFO:root:pred_img_np shape:
+(418, 403, 315)
+INFO:root:Process ExtB0053,time spent:25.53005814552307 
+INFO:root:---------------------------id ExtB0054------------------------
+INFO:root:pred_img_np shape:
+(534, 418, 361)
+INFO:root:Process ExtB0054,time spent:40.24598264694214 
+INFO:root:---------------------------id ExtB0055------------------------
+INFO:root:pred_img_np shape:
+(421, 404, 325)
+INFO:root:Process ExtB0055,time spent:23.46865224838257 
+INFO:root:---------------------------id ExtB0056------------------------
+INFO:root:pred_img_np shape:
+(412, 393, 339)
+INFO:root:Process ExtB0056,time spent:28.6138813495636 
+INFO:root:---------------------------id ExtB0057------------------------
+INFO:root:pred_img_np shape:
+(409, 402, 328)
+INFO:root:Process ExtB0057,time spent:27.0569851398468 
+INFO:root:---------------------------id ExtB0058------------------------
+INFO:root:pred_img_np shape:
+(418, 379, 318)
+INFO:root:Process ExtB0058,time spent:23.25221562385559 
+INFO:root:---------------------------id ExtB0059------------------------
+INFO:root:pred_img_np shape:
+(398, 380, 318)
+INFO:root:Process ExtB0059,time spent:18.29353141784668 
+INFO:root:---------------------------id ExtB0060------------------------
+INFO:root:pred_img_np shape:
+(457, 421, 328)
+INFO:root:Process ExtB0060,time spent:30.436153650283813 
+INFO:root:---------------------------id ExtB0061------------------------
+INFO:root:pred_img_np shape:
+(368, 392, 334)
+INFO:root:Process ExtB0061,time spent:22.189643383026123 
+INFO:root:---------------------------id ExtB0062------------------------
+INFO:root:pred_img_np shape:
+(413, 381, 323)
+INFO:root:Process ExtB0062,time spent:23.09497618675232 
+INFO:root:---------------------------id ExtB0063------------------------
+INFO:root:pred_img_np shape:
+(393, 380, 333)
+INFO:root:Process ExtB0063,time spent:22.279057502746582 
+INFO:root:---------------------------id ExtB0064------------------------
+INFO:root:pred_img_np shape:
+(398, 374, 317)
+INFO:root:Process ExtB0064,time spent:22.77997851371765 
+INFO:root:---------------------------id ExtB0065------------------------
+INFO:root:pred_img_np shape:
+(414, 430, 338)
+INFO:root:Process ExtB0065,time spent:29.663257598876953 
+INFO:root:---------------------------id ExtB0066------------------------
+INFO:root:pred_img_np shape:
+(430, 374, 346)
+INFO:root:Process ExtB0066,time spent:23.612366914749146 
+INFO:root:---------------------------id ExtB0067------------------------
+INFO:root:pred_img_np shape:
+(428, 389, 337)
+INFO:root:Process ExtB0067,time spent:29.335403203964233 

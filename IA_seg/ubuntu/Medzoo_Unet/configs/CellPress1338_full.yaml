@@ -1,0 +1,77 @@
+
+data:
+  dataset: 'CellPress'
+  data_num: 1338
+  train_num: 1186
+  test_num: 152
+  instances_csv_path: 'F:/data/CellPress1338/instances_copy.csv' # all data
+  csv_info_path: 'F:/data/CellPress1338/All_instances_info.csv'
+  brain_file: 'F:/data/CellPress1338/brain_coords.txt'
+  data_dir: 'F:/data/CellPress1338'
+  patch_dir: 'F:/output/Medzoo'
+
+  split_fold_valid: 237
+  split_fold_train: 949
+  fold_num: 5
+  fold_1:
+    random_seed: 13
+    save_path: 'aneurysm_seg_fold_1.csv'
+  fold_2:
+    random_seed: 31
+    save_path: 'aneurysm_seg_fold_2.csv'
+  fold_3:
+    random_seed: 7
+    save_path: 'aneurysm_seg_fold_3.csv'
+  fold_4:
+    random_seed: 11
+    save_path: 'aneurysm_seg_fold_4.csv'
+  fold_5:
+    random_seed: 71
+    save_path: 'aneurysm_seg_fold_5.csv'
+  hu_values: [[0, 100], [100, 200], [200, 800]]  # HU value intervals  for input images. Length should be same as in_channels
+  train_pos_neg_ratio: [1, 1]  # ratio for positive and negative patches during training
+  eval_pos_neg_ratio: [1, 1]  # ratio for positive and negative patches during eval
+  patch_size: [96, 96, 96]  # depth, width, height
+  overlap_step: [48, 48, 48]  # only in sliding window data generation method
+
+
+train:
+  train_save_dir: 'F:/output/Medzoo'
+  model: 'UNET3D' #'VNET', 'VNET2', 'UNET3D', 'DENSENET1', 'DENSENET2', 'DENSENET3', 'HYPERDENSENET'
+  nEpochs: 50
+  classes: 2
+  inChannels: 3
+  inModalities: 3
+  dim: (96, 96, 96)
+  terminal_show_freq: 50
+  lr: 0.01
+  opt: 'sgd' #('sgd', 'adam', 'rmsprop')
+  weight_decay: 0.0000000001
+  batchSz: 16
+
+inference:
+  just_brain: True
+  brain_flag: '_Brain_'  #save name
+  pretrained: 'F:\output\Medzoo\CellPress1338\fold\fold_1\exp_1\exp_1_9_epoch.pth'
+  kernel_size: 7 # kernel size in morph close
+  area_threshold: 30 #target whose area is no more than this threshold will be dropped
+  thin_threshold: 1 #target who has no more than this number of slices along any axis will be dropped
+
+
+
+# note that eval phase metrics in training is patch-wise with overlap among patches, not case-wise
+eval:
+  # supported metrics: ap, auc, precision, recall, sensitivity, specificity, dsc, hd95, tp, fp, fn, tn.
+  # metrics are per voxel by default. add prefix per_target_ to compute per target metrics
+  # the first is the main eval metric
+  gt_file_or_folder: 'F:\saved_models\Medzoo\IACTA_UNET3D\1\fold_1\fold_1_BEST_Brain__inference_k_7_a_30_t_1'
+  metrics: [ap, auc, precision, recall, dsc, hd95, per_target_precision, per_target_recall]
+  # curves will be logged to tensorboard after each epoch
+  # supported curves: pr (precision-recall curve), roc (ROC curve)
+  # metrics are per voxel by default. add prefix per_target_ to compute per target metrics
+  curves: [pr, roc]
+  num_thresholds: 100  # for computing AUC and AP
+  thresholds_type: uline  # logspace, linspace, logspace_pro or uline. see in get_evaluation_metric()
+  probability_threshold: 0.5  # for precision, recall...
+
+

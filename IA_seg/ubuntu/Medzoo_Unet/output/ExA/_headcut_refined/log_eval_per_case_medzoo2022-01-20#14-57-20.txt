@@ -1,0 +1,40 @@
+INFO:root:Namespace(config='eval_per_case_medzoo', device='cpu', gt_file_or_folder='/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut/cta_img', logging_folder='/home/ubuntu/codes/MyMedicalZoo/output/ExA/_headcut_refined', mask=True, pred_file_or_folder='/home/ubuntu/codes/MyMedicalZoo/output/ExA/_headcut_refined')
+INFO:root:use device cpu
+INFO:root:gt_file_or_folder: /media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut/cta_img
+INFO:root:pred_file_or_folder: /home/ubuntu/codes/MyMedicalZoo/output/ExA/_headcut_refined
+INFO:root:mask or probability distribution: mask
+INFO:root:Begin to scan gt_folder_or_file /media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut/cta_img...
+INFO:root:Begin to scan pred_folder_or_file /home/ubuntu/codes/MyMedicalZoo/output/ExA/_headcut_refined...
+INFO:root:instance number: 70. start evaluating...
+INFO:root:===metrics_dict===
+{'ap': AP(), 'auc': AUC(), 'precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'sensitivity': Sensitivity(
+  (cm): _ConfusionMatrix()
+), 'specificity': Specificity(
+  (cm): _ConfusionMatrix()
+), 'dsc': DSC(
+  (cm): _ConfusionMatrix()
+), 'hd95': HD95(), 'tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+), 'tn': TrueNegative(
+  (cm): _ConfusionMatrix()
+), 'per_target_precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'per_target_recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'per_target_tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+)}
+======curves_dict====
+{'pr': AP(), 'roc': AUC()}

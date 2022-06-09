@@ -1,0 +1,7 @@
+INFO:root:Namespace(config='eval_per_case_medzoo_CellPressTest', device='0', gt_file_or_folder='/mnt/f/data/CellPress1338/ane_seg', gt_suffix='*.nii.gz', logging_folder='/home/ubuntu/codes/MyMedicalZoo/output/CellPressTest', mask=True, pred_file_or_folder='/home/ubuntu/codes/MyMedicalZoo/output/CellPressTest', pred_suffix='*_pred.nii.gz')
+INFO:root:use device 0
+INFO:root:gt_file_or_folder: /mnt/f/data/CellPress1338/ane_seg
+INFO:root:pred_file_or_folder: /home/ubuntu/codes/MyMedicalZoo/output/CellPressTest
+INFO:root:mask or probability distribution: mask
+INFO:root:Begin to scan gt_folder_or_file /mnt/f/data/CellPress1338/ane_seg...
+INFO:root:Begin to scan pred_folder_or_file /home/ubuntu/codes/MyMedicalZoo/output/CellPressTest...

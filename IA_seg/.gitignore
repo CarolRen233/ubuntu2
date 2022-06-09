@@ -1,0 +1,13 @@
+*.nii
+*.nii.gz
+*.gz
+*.zip
+*.npz
+*.npy
+*.model
+*.pth
+ubuntu/nnUnet/2HeadCut_New/model/epoch190_model.pth
+ubuntu/nnUnet/4Experiment_Writing/Experimenting/predictions/CTA&Predictions/*
+ubuntu/nnUnet/4Experiment_Writing/Experimenting/predictions/3DVisualPngs/*
+
+

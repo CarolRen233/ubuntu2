@@ -1,0 +1,41 @@
+eval:
+  gt_file_or_folder: /media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/external/A/ane_seg
+  pred_file_or_folder: /home/ubuntu/codes/MyMedicalZoo/output/ExA
+eval_prob:
+  metrics:
+  - dsc
+  - hd95
+  - per_target_precision
+  - per_target_recall
+  - per_target_ap
+  - per_target_auc
+  num_thresholds: 200
+  thresholds_type: uline
+  probability_threshold: 0.5
+  save_metrics_to_file: eval_metrics.csv
+eval_mask:
+  metrics:
+  - ap
+  - auc
+  - precision
+  - recall
+  - sensitivity
+  - specificity
+  - dsc
+  - hd95
+  - tp
+  - fp
+  - fn
+  - tn
+  - per_target_precision
+  - per_target_recall
+  - per_target_tp
+  - per_target_fp
+  - per_target_fn
+  probability_threshold: 0.5
+  curves:
+  - pr
+  - roc
+  num_thresholds: 200
+  thresholds_type: uline
+  save_metrics_to_file: eval_metrics.csv

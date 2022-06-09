@@ -1,0 +1,86 @@
+data:
+  dataset: CellPress
+  data_num: 110
+  train_num: 100
+  test_num: 10
+  instances_csv_path: /root/workspace/renyan/data/CellPress110/instances_copy.csv
+  csv_info_path: /root/workspace/renyan/data/CellPress110/All_instances_info.csv
+  brain_file: /root/workspace/renyan/data/CellPress110/brain_coords.txt
+  data_dir: /root/workspace/renyan/data/CellPress110
+  patch_dir: /root/workspace/renyan/output/Medzoo
+  split_fold_valid: 20
+  split_fold_train: 80
+  fold_num: 5
+  fold_1:
+    random_seed: 13
+    save_path: aneurysm_seg_fold_1.csv
+  fold_2:
+    random_seed: 31
+    save_path: aneurysm_seg_fold_2.csv
+  fold_3:
+    random_seed: 7
+    save_path: aneurysm_seg_fold_3.csv
+  fold_4:
+    random_seed: 11
+    save_path: aneurysm_seg_fold_4.csv
+  fold_5:
+    random_seed: 71
+    save_path: aneurysm_seg_fold_5.csv
+  hu_values:
+  - - 0
+    - 100
+  - - 100
+    - 200
+  - - 200
+    - 800
+  train_pos_neg_ratio:
+  - 1
+  - 1
+  eval_pos_neg_ratio:
+  - 1
+  - 1
+  patch_size:
+  - 96
+  - 96
+  - 96
+  overlap_step:
+  - 48
+  - 48
+  - 48
+train:
+  train_save_dir: /root/workspace/renyan/output/Medzoo
+  model: UNET3D
+  nEpochs: 1000
+  classes: 2
+  inChannels: 3
+  inModalities: 3
+  dim: (96, 96, 96)
+  terminal_show_freq: 50
+  lr: 0.01
+  opt: sgd
+  weight_decay: 1.0e-10
+  batchSz: 4
+inference:
+  just_brain: true
+  brain_flag: _Brain_
+  pretrained: /root/workspace/renyan/output/Medzoo/CellPress110/fold/fold_1/exp_1/exp_1_86_epoch.pth
+  kernel_size: 7
+  area_threshold: 30
+  thin_threshold: 1
+eval:
+  gt_file_or_folder: F:\saved_models\Medzoo\IACTA_UNET3D\1\fold_1\fold_1_BEST_Brain__inference_k_7_a_30_t_1
+  metrics:
+  - ap
+  - auc
+  - precision
+  - recall
+  - dsc
+  - hd95
+  - per_target_precision
+  - per_target_recall
+  curves:
+  - pr
+  - roc
+  num_thresholds: 100
+  thresholds_type: uline
+  probability_threshold: 0.5

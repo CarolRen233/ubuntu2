@@ -1,0 +1,2267 @@
+INFO:root:Namespace(augmentation=False, config='inference_XJTsN', cuda=True, device='0', mode='inference', save='/home/ubuntu/codes/MyMedicalZoo/output/XJTsN')
+INFO:root:config loaded:
+{'data': {'dataset': 'XJTsN', 'data_num': 71, 'train_num': 0, 'test_num': 71, 'instances_csv_path': None, 'csv_info_path': None, 'brain_file': None, 'data_dir': '/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/output/ExA_Headcut', 'patch_dir': None, 'split_fold_valid': None, 'split_fold_train': None, 'hu_values': [[0, 100], [100, 200], [200, 800]], 'train_pos_neg_ratio': [1, 1], 'eval_pos_neg_ratio': [1, 1], 'patch_size': [96, 96, 96], 'overlap_step': [48, 48, 48]}, 'train': {'train_save_dir': '/root/workspace/renyan/output/Medzoo', 'model': 'UNET3D', 'nEpochs': 1000, 'classes': 2, 'inChannels': 3, 'inModalities': 3, 'dim': '(96, 96, 96)', 'terminal_show_freq': 50, 'lr': 0.01, 'opt': 'sgd', 'weight_decay': 1e-10, 'batchSz': 4}, 'inference': {'just_head': False, 'head_flag': '_headcut_', 'pkl_info_path': '/home/ubuntu/codes/radiology/file/after_headcut_properties_XJdata.pkl', 'pretrained': '/home/ubuntu/codes/MyMedicalZoo/output/exp_1_BEST.pth', 'kernel_size': 7, 'area_threshold': 30, 'thin_threshold': 1}, 'eval': {'gt_file_or_folder': 'F:\\saved_models\\Medzoo\\IACTA_UNET3D\\1\\fold_1\\fold_1_BEST_Brain__inference_k_7_a_30_t_1', 'metrics': ['ap', 'auc', 'precision', 'recall', 'dsc', 'hd95', 'per_target_precision', 'per_target_recall'], 'curves': ['pr', 'roc'], 'num_thresholds': 100, 'thresholds_type': 'uline', 'probability_threshold': 0.5}}
+INFO:root:---------------------------id 299916------------------------
+INFO:root:pred_img_np shape:
+(176, 512, 512)
+INFO:root:Process 299916,time spent:18.734703302383423 
+INFO:root:---------------------------id 271870------------------------
+INFO:root:pred_img_np shape:
+(222, 512, 512)
+INFO:root:Process 271870,time spent:26.9246084690094 
+INFO:root:---------------------------id P0000341300------------------------
+INFO:root:pred_img_np shape:
+(237, 512, 512)
+INFO:root:Process P0000341300,time spent:26.60619068145752 
+INFO:root:---------------------------id 437933------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 437933,time spent:31.45937991142273 
+INFO:root:---------------------------id 472551------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 472551,time spent:32.30406999588013 
+INFO:root:---------------------------id 381406------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 381406,time spent:34.535879611968994 
+INFO:root:---------------------------id 383070------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 383070,time spent:36.12782669067383 
+INFO:root:---------------------------id 312521------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 312521,time spent:31.71760845184326 
+INFO:root:---------------------------id 325745------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 325745,time spent:33.64613151550293 
+INFO:root:---------------------------id 402625------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 402625,time spent:31.749449014663696 
+INFO:root:---------------------------id 347187------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 347187,time spent:34.03622126579285 
+INFO:root:---------------------------id 33108------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 33108,time spent:31.966674089431763 
+INFO:root:---------------------------id 345801------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 345801,time spent:31.492918729782104 
+INFO:root:---------------------------id 358721------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 358721,time spent:31.5468533039093 
+INFO:root:---------------------------id 498889------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 498889,time spent:31.424611568450928 
+INFO:root:---------------------------id 322255------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 322255,time spent:32.380213022232056 
+INFO:root:---------------------------id 151667------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 151667,time spent:34.99430298805237 
+INFO:root:---------------------------id 411457------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 411457,time spent:31.57347822189331 
+INFO:root:---------------------------id 369215------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 369215,time spent:31.755218029022217 
+INFO:root:---------------------------id 409480------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 409480,time spent:32.582547664642334 
+INFO:root:---------------------------id 467198------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 467198,time spent:24.623058557510376 
+INFO:root:---------------------------id 356837------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 356837,time spent:23.4929940700531 
+INFO:root:---------------------------id 316888------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 316888,time spent:23.903553009033203 
+INFO:root:---------------------------id 400552------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 400552,time spent:23.64805793762207 
+INFO:root:---------------------------id 502758------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 502758,time spent:31.368616104125977 
+INFO:root:---------------------------id 353851------------------------
+INFO:root:pred_img_np shape:
+(293, 512, 512)
+INFO:root:Process 353851,time spent:37.4521164894104 
+INFO:root:---------------------------id 277702------------------------
+INFO:root:pred_img_np shape:
+(298, 512, 512)
+INFO:root:Process 277702,time spent:38.91392517089844 
+INFO:root:---------------------------id 240040------------------------
+INFO:root:pred_img_np shape:
+(301, 512, 512)
+INFO:root:Process 240040,time spent:39.3125114440918 
+INFO:root:---------------------------id 302691------------------------
+INFO:root:pred_img_np shape:
+(353, 512, 512)
+INFO:root:Process 302691,time spent:46.812376976013184 
+INFO:root:---------------------------id P00086031------------------------
+INFO:root:pred_img_np shape:
+(355, 512, 512)
+INFO:root:Process P00086031,time spent:49.26764249801636 
+INFO:root:---------------------------id P00041812------------------------
+INFO:root:pred_img_np shape:
+(360, 512, 512)
+INFO:root:Process P00041812,time spent:46.73827767372131 
+INFO:root:---------------------------id P00112733------------------------
+INFO:root:pred_img_np shape:
+(363, 512, 512)
+INFO:root:Process P00112733,time spent:44.87205791473389 
+INFO:root:---------------------------id P00169305------------------------
+INFO:root:pred_img_np shape:
+(374, 512, 512)
+INFO:root:Process P00169305,time spent:46.767935037612915 
+INFO:root:---------------------------id P00091807------------------------
+INFO:root:pred_img_np shape:
+(375, 512, 512)
+INFO:root:Process P00091807,time spent:45.157201528549194 
+INFO:root:---------------------------id P00066275------------------------
+INFO:root:pred_img_np shape:
+(381, 512, 512)
+INFO:root:Process P00066275,time spent:47.200188636779785 
+INFO:root:---------------------------id P00183973------------------------
+INFO:root:pred_img_np shape:
+(381, 512, 512)
+INFO:root:Process P00183973,time spent:48.22046208381653 
+INFO:root:---------------------------id P00062973------------------------
+INFO:root:pred_img_np shape:
+(381, 512, 512)
+INFO:root:Process P00062973,time spent:45.44289422035217 
+INFO:root:---------------------------id P00138108------------------------
+INFO:root:pred_img_np shape:
+(383, 512, 512)
+INFO:root:Process P00138108,time spent:39.3951997756958 
+INFO:root:---------------------------id P00052092------------------------
+INFO:root:pred_img_np shape:
+(386, 512, 512)
+INFO:root:Process P00052092,time spent:37.7888708114624 
+INFO:root:---------------------------id 283534------------------------
+INFO:root:pred_img_np shape:
+(387, 512, 512)
+INFO:root:Process 283534,time spent:37.408719062805176 
+INFO:root:---------------------------id P00200428------------------------
+INFO:root:pred_img_np shape:
+(389, 512, 512)
+INFO:root:Process P00200428,time spent:48.97650384902954 
+INFO:root:---------------------------id P00144241------------------------
+INFO:root:pred_img_np shape:
+(391, 512, 512)
+INFO:root:Process P00144241,time spent:50.45474600791931 
+INFO:root:---------------------------id P00032519------------------------
+INFO:root:pred_img_np shape:
+(391, 512, 512)
+INFO:root:Process P00032519,time spent:51.406914472579956 
+INFO:root:---------------------------id P00222592------------------------
+INFO:root:pred_img_np shape:
+(391, 512, 512)
+INFO:root:Process P00222592,time spent:52.8888738155365 
+INFO:root:---------------------------id P00237619------------------------
+INFO:root:pred_img_np shape:
+(392, 512, 512)
+INFO:root:Process P00237619,time spent:53.409361839294434 
+INFO:root:---------------------------id P00020899------------------------
+INFO:root:pred_img_np shape:
+(393, 512, 512)
+INFO:root:Process P00020899,time spent:55.20652437210083 
+INFO:root:---------------------------id P00143379------------------------
+INFO:root:pred_img_np shape:
+(394, 512, 512)
+INFO:root:Process P00143379,time spent:49.995386838912964 
+INFO:root:---------------------------id P00199938------------------------
+INFO:root:pred_img_np shape:
+(395, 512, 512)
+INFO:root:Process P00199938,time spent:58.29538369178772 
+INFO:root:---------------------------id P00196760------------------------
+INFO:root:pred_img_np shape:
+(395, 512, 512)
+INFO:root:Process P00196760,time spent:51.160325050354004 
+INFO:root:---------------------------id P00183948------------------------
+INFO:root:pred_img_np shape:
+(396, 512, 512)
+INFO:root:Process P00183948,time spent:51.83730959892273 
+INFO:root:---------------------------id P00048779------------------------
+INFO:root:pred_img_np shape:
+(397, 512, 512)
+INFO:root:Process P00048779,time spent:55.79356265068054 
+INFO:root:---------------------------id P00048969------------------------
+INFO:root:pred_img_np shape:
+(398, 512, 512)
+INFO:root:Process P00048969,time spent:57.80155277252197 
+INFO:root:---------------------------id P00235286------------------------
+INFO:root:pred_img_np shape:
+(400, 512, 512)
+INFO:root:Process P00235286,time spent:40.89013957977295 
+INFO:root:---------------------------id P0000524919------------------------
+INFO:root:pred_img_np shape:
+(401, 512, 512)
+INFO:root:Process P0000524919,time spent:38.858540534973145 
+INFO:root:---------------------------id P00046902------------------------
+INFO:root:pred_img_np shape:
+(403, 512, 512)
+INFO:root:Process P00046902,time spent:40.06088638305664 
+INFO:root:---------------------------id P00064881------------------------
+INFO:root:pred_img_np shape:
+(404, 512, 512)
+INFO:root:Process P00064881,time spent:49.37159442901611 
+INFO:root:---------------------------id P00100467------------------------
+INFO:root:pred_img_np shape:
+(404, 512, 512)
+INFO:root:Process P00100467,time spent:49.73520064353943 
+INFO:root:---------------------------id P00138834------------------------
+INFO:root:pred_img_np shape:
+(405, 512, 512)
+INFO:root:Process P00138834,time spent:57.79311203956604 
+INFO:root:---------------------------id P00194527------------------------
+INFO:root:pred_img_np shape:
+(405, 512, 512)
+INFO:root:Process P00194527,time spent:48.88370680809021 
+INFO:root:---------------------------id P00148288------------------------
+INFO:root:pred_img_np shape:
+(405, 512, 512)
+INFO:root:Process P00148288,time spent:51.03514218330383 
+INFO:root:---------------------------id P00151652------------------------
+INFO:root:pred_img_np shape:
+(405, 512, 512)
+INFO:root:Process P00151652,time spent:56.349886417388916 
+INFO:root:---------------------------id P00112863------------------------
+INFO:root:pred_img_np shape:
+(406, 512, 512)
+INFO:root:Process P00112863,time spent:54.55482745170593 
+INFO:root:---------------------------id P00216354------------------------
+INFO:root:pred_img_np shape:
+(406, 512, 512)
+INFO:root:Process P00216354,time spent:50.557926654815674 
+INFO:root:---------------------------id P00046136------------------------
+INFO:root:pred_img_np shape:
+(406, 512, 512)
+INFO:root:Process P00046136,time spent:52.287686586380005 
+INFO:root:---------------------------id P00123288------------------------
+INFO:root:pred_img_np shape:
+(407, 512, 512)
+INFO:root:Process P00123288,time spent:55.21388006210327 
+INFO:root:---------------------------id P00020286------------------------
+INFO:root:pred_img_np shape:
+(407, 512, 512)
+INFO:root:Process P00020286,time spent:38.3231725692749 
+INFO:root:---------------------------id P00095727------------------------
+INFO:root:pred_img_np shape:
+(407, 512, 512)
+INFO:root:Process P00095727,time spent:39.097983837127686 
+INFO:root:---------------------------id P00185691------------------------
+INFO:root:pred_img_np shape:
+(408, 512, 512)
+INFO:root:Process P00185691,time spent:53.13864850997925 
+INFO:root:---------------------------id P00052352------------------------
+INFO:root:pred_img_np shape:
+(410, 512, 512)
+INFO:root:Process P00052352,time spent:55.466753244400024 
+INFO:root:---------------------------id P0000933845------------------------
+INFO:root:pred_img_np shape:
+(410, 512, 512)
+INFO:root:Process P0000933845,time spent:54.38499689102173 
+INFO:root:---------------------------id P00235898------------------------
+INFO:root:pred_img_np shape:
+(411, 512, 512)
+INFO:root:Process P00235898,time spent:54.624385595321655 
+INFO:root:---------------------------id P00177306------------------------
+INFO:root:pred_img_np shape:
+(412, 512, 512)
+INFO:root:Process P00177306,time spent:54.706217765808105 
+INFO:root:---------------------------id P00104670------------------------
+INFO:root:pred_img_np shape:
+(412, 512, 512)
+INFO:root:Process P00104670,time spent:54.64370536804199 
+INFO:root:---------------------------id P00098081------------------------
+INFO:root:pred_img_np shape:
+(412, 512, 512)
+INFO:root:Process P00098081,time spent:58.81363081932068 
+INFO:root:---------------------------id P00207403------------------------
+INFO:root:pred_img_np shape:
+(413, 512, 512)
+INFO:root:Process P00207403,time spent:54.975146770477295 
+INFO:root:---------------------------id P00209956------------------------
+INFO:root:pred_img_np shape:
+(413, 512, 512)
+INFO:root:Process P00209956,time spent:54.70735216140747 
+INFO:root:---------------------------id P00177941------------------------
+INFO:root:pred_img_np shape:
+(415, 512, 512)
+INFO:root:Process P00177941,time spent:54.48864483833313 
+INFO:root:---------------------------id P00054880------------------------
+INFO:root:pred_img_np shape:
+(415, 512, 512)
+INFO:root:Process P00054880,time spent:52.02740669250488 
+INFO:root:---------------------------id P00071349------------------------
+INFO:root:pred_img_np shape:
+(416, 512, 512)
+INFO:root:Process P00071349,time spent:59.799028158187866 
+INFO:root:---------------------------id P00198945------------------------
+INFO:root:pred_img_np shape:
+(417, 512, 512)
+INFO:root:Process P00198945,time spent:44.41059136390686 
+INFO:root:---------------------------id P00141785------------------------
+INFO:root:pred_img_np shape:
+(417, 512, 512)
+INFO:root:Process P00141785,time spent:39.34872817993164 
+INFO:root:---------------------------id P00070928------------------------
+INFO:root:pred_img_np shape:
+(417, 512, 512)
+INFO:root:Process P00070928,time spent:39.50281476974487 
+INFO:root:---------------------------id P00124932------------------------
+INFO:root:pred_img_np shape:
+(418, 512, 512)
+INFO:root:Process P00124932,time spent:47.050620555877686 
+INFO:root:---------------------------id P00140025------------------------
+INFO:root:pred_img_np shape:
+(418, 512, 512)
+INFO:root:Process P00140025,time spent:58.3083176612854 
+INFO:root:---------------------------id P0000742994------------------------
+INFO:root:pred_img_np shape:
+(418, 512, 512)
+INFO:root:Process P0000742994,time spent:55.11635684967041 
+INFO:root:---------------------------id P00133677------------------------
+INFO:root:pred_img_np shape:
+(419, 512, 512)
+INFO:root:Process P00133677,time spent:55.60223937034607 
+INFO:root:---------------------------id P00131973------------------------
+INFO:root:pred_img_np shape:
+(419, 512, 512)
+INFO:root:Process P00131973,time spent:55.98179912567139 
+INFO:root:---------------------------id P00163005------------------------
+INFO:root:pred_img_np shape:
+(421, 512, 512)
+INFO:root:Process P00163005,time spent:55.36987376213074 
+INFO:root:---------------------------id P00051815------------------------
+INFO:root:pred_img_np shape:
+(422, 512, 512)
+INFO:root:Process P00051815,time spent:53.113791704177856 
+INFO:root:---------------------------id P00075575------------------------
+INFO:root:pred_img_np shape:
+(423, 512, 512)
+INFO:root:Process P00075575,time spent:54.184266805648804 
+INFO:root:---------------------------id P00062083------------------------
+INFO:root:pred_img_np shape:
+(423, 512, 512)
+INFO:root:Process P00062083,time spent:51.593865633010864 
+INFO:root:---------------------------id P00058733------------------------
+INFO:root:pred_img_np shape:
+(423, 512, 512)
+INFO:root:Process P00058733,time spent:55.905192136764526 
+INFO:root:---------------------------id P0000951832------------------------
+INFO:root:pred_img_np shape:
+(424, 512, 512)
+INFO:root:Process P0000951832,time spent:55.537713050842285 
+INFO:root:---------------------------id P00214776------------------------
+INFO:root:pred_img_np shape:
+(426, 512, 512)
+INFO:root:Process P00214776,time spent:53.970725774765015 
+INFO:root:---------------------------id P00135300------------------------
+INFO:root:pred_img_np shape:
+(427, 512, 512)
+INFO:root:Process P00135300,time spent:57.93314027786255 
+INFO:root:---------------------------id P00194653------------------------
+INFO:root:pred_img_np shape:
+(427, 512, 512)
+INFO:root:Process P00194653,time spent:53.48408246040344 
+INFO:root:---------------------------id P00074628------------------------
+INFO:root:pred_img_np shape:
+(428, 512, 512)
+INFO:root:Process P00074628,time spent:56.497973680496216 
+INFO:root:---------------------------id P00110860------------------------
+INFO:root:pred_img_np shape:
+(429, 512, 512)
+INFO:root:Process P00110860,time spent:58.92274260520935 
+INFO:root:---------------------------id P00168580------------------------
+INFO:root:pred_img_np shape:
+(430, 512, 512)
+INFO:root:Process P00168580,time spent:57.137157917022705 
+INFO:root:---------------------------id P00035944------------------------
+INFO:root:pred_img_np shape:
+(434, 512, 512)
+INFO:root:Process P00035944,time spent:56.054731607437134 
+INFO:root:---------------------------id P00064616------------------------
+INFO:root:pred_img_np shape:
+(434, 512, 512)
+INFO:root:Process P00064616,time spent:57.55327534675598 
+INFO:root:---------------------------id P00197108------------------------
+INFO:root:pred_img_np shape:
+(436, 512, 512)
+INFO:root:Process P00197108,time spent:58.39953565597534 
+INFO:root:---------------------------id P00170017------------------------
+INFO:root:pred_img_np shape:
+(436, 512, 512)
+INFO:root:Process P00170017,time spent:54.30491232872009 
+INFO:root:---------------------------id P00168019------------------------
+INFO:root:pred_img_np shape:
+(439, 512, 512)
+INFO:root:Process P00168019,time spent:42.49321532249451 
+INFO:root:---------------------------id P00217787------------------------
+INFO:root:pred_img_np shape:
+(439, 512, 512)
+INFO:root:Process P00217787,time spent:41.75589728355408 
+INFO:root:---------------------------id P00129612------------------------
+INFO:root:pred_img_np shape:
+(439, 512, 512)
+INFO:root:Process P00129612,time spent:46.58356761932373 
+INFO:root:---------------------------id P00143846------------------------
+INFO:root:pred_img_np shape:
+(441, 512, 512)
+INFO:root:Process P00143846,time spent:44.767210960388184 
+INFO:root:---------------------------id P00176778------------------------
+INFO:root:pred_img_np shape:
+(442, 512, 512)
+INFO:root:Process P00176778,time spent:44.41203236579895 
+INFO:root:---------------------------id P00233158------------------------
+INFO:root:pred_img_np shape:
+(444, 512, 512)
+INFO:root:Process P00233158,time spent:52.45045566558838 
+INFO:root:---------------------------id P00078173------------------------
+INFO:root:pred_img_np shape:
+(445, 512, 512)
+INFO:root:Process P00078173,time spent:55.38174247741699 
+INFO:root:---------------------------id P0000040591------------------------
+INFO:root:pred_img_np shape:
+(445, 512, 512)
+INFO:root:Process P0000040591,time spent:55.18731665611267 
+INFO:root:---------------------------id P00217225------------------------
+INFO:root:pred_img_np shape:
+(446, 512, 512)
+INFO:root:Process P00217225,time spent:58.12082004547119 
+INFO:root:---------------------------id P00155618------------------------
+INFO:root:pred_img_np shape:
+(447, 512, 512)
+INFO:root:Process P00155618,time spent:60.32739973068237 
+INFO:root:---------------------------id P00137570------------------------
+INFO:root:pred_img_np shape:
+(448, 512, 512)
+INFO:root:Process P00137570,time spent:61.15740513801575 
+INFO:root:---------------------------id P0000270127------------------------
+INFO:root:pred_img_np shape:
+(448, 512, 512)
+INFO:root:Process P0000270127,time spent:58.81317067146301 
+INFO:root:---------------------------id P0000661328------------------------
+INFO:root:pred_img_np shape:
+(449, 512, 512)
+INFO:root:Process P0000661328,time spent:57.30441427230835 
+INFO:root:---------------------------id P0000695008------------------------
+INFO:root:pred_img_np shape:
+(449, 512, 512)
+INFO:root:Process P0000695008,time spent:56.94713640213013 
+INFO:root:---------------------------id P0000441884------------------------
+INFO:root:pred_img_np shape:
+(450, 512, 512)
+INFO:root:Process P0000441884,time spent:49.679898500442505 
+INFO:root:---------------------------id P00216474------------------------
+INFO:root:pred_img_np shape:
+(451, 512, 512)
+INFO:root:Process P00216474,time spent:43.63297128677368 
+INFO:root:---------------------------id P00219963------------------------
+INFO:root:pred_img_np shape:
+(452, 512, 512)
+INFO:root:Process P00219963,time spent:51.18433928489685 
+INFO:root:---------------------------id P00178572------------------------
+INFO:root:pred_img_np shape:
+(453, 512, 512)
+INFO:root:Process P00178572,time spent:60.310800313949585 
+INFO:root:---------------------------id P0000677533------------------------
+INFO:root:pred_img_np shape:
+(453, 512, 512)
+INFO:root:Process P0000677533,time spent:65.11839652061462 
+INFO:root:---------------------------id P0000636655------------------------
+INFO:root:pred_img_np shape:
+(454, 512, 512)
+INFO:root:Process P0000636655,time spent:60.04395508766174 
+INFO:root:---------------------------id P0000830442------------------------
+INFO:root:pred_img_np shape:
+(455, 512, 512)
+INFO:root:Process P0000830442,time spent:56.31699895858765 
+INFO:root:---------------------------id P0000906312------------------------
+INFO:root:pred_img_np shape:
+(456, 512, 512)
+INFO:root:Process P0000906312,time spent:62.221298933029175 
+INFO:root:---------------------------id P0000582697------------------------
+INFO:root:pred_img_np shape:
+(458, 512, 512)
+INFO:root:Process P0000582697,time spent:58.83294224739075 
+INFO:root:---------------------------id P0000732146------------------------
+INFO:root:pred_img_np shape:
+(459, 512, 512)
+INFO:root:Process P0000732146,time spent:66.86309933662415 
+INFO:root:---------------------------id P0000696114------------------------
+INFO:root:pred_img_np shape:
+(459, 512, 512)
+INFO:root:Process P0000696114,time spent:58.405336141586304 
+INFO:root:---------------------------id P0000323401------------------------
+INFO:root:pred_img_np shape:
+(459, 512, 512)
+INFO:root:Process P0000323401,time spent:56.64233112335205 
+INFO:root:---------------------------id P0000639892------------------------
+INFO:root:pred_img_np shape:
+(460, 512, 512)
+INFO:root:Process P0000639892,time spent:60.43022108078003 
+INFO:root:---------------------------id P00215004------------------------
+INFO:root:pred_img_np shape:
+(462, 512, 512)
+INFO:root:Process P00215004,time spent:47.341514587402344 
+INFO:root:---------------------------id P0000457040------------------------
+INFO:root:pred_img_np shape:
+(463, 512, 512)
+INFO:root:Process P0000457040,time spent:43.258047580718994 
+INFO:root:---------------------------id P0000929861------------------------
+INFO:root:pred_img_np shape:
+(465, 512, 512)
+INFO:root:Process P0000929861,time spent:43.9653639793396 
+INFO:root:---------------------------id P00204433------------------------
+INFO:root:pred_img_np shape:
+(467, 512, 512)
+INFO:root:Process P00204433,time spent:50.55020570755005 
+INFO:root:---------------------------id P00217254------------------------
+INFO:root:pred_img_np shape:
+(468, 512, 512)
+INFO:root:Process P00217254,time spent:51.51530337333679 
+INFO:root:---------------------------id P0000311477------------------------
+INFO:root:pred_img_np shape:
+(468, 512, 512)
+INFO:root:Process P0000311477,time spent:53.69882583618164 
+INFO:root:---------------------------id P0000663049------------------------
+INFO:root:pred_img_np shape:
+(468, 512, 512)
+INFO:root:Process P0000663049,time spent:53.21798372268677 
+INFO:root:---------------------------id P00183244------------------------
+INFO:root:pred_img_np shape:
+(470, 512, 512)
+INFO:root:Process P00183244,time spent:50.44364047050476 
+INFO:root:---------------------------id P0000575149------------------------
+INFO:root:pred_img_np shape:
+(470, 512, 512)
+INFO:root:Process P0000575149,time spent:51.796759366989136 
+INFO:root:---------------------------id P0000694534------------------------
+INFO:root:pred_img_np shape:
+(472, 512, 512)
+INFO:root:Process P0000694534,time spent:57.27833127975464 
+INFO:root:---------------------------id P0000522768------------------------
+INFO:root:pred_img_np shape:
+(472, 512, 512)
+INFO:root:Process P0000522768,time spent:54.04432392120361 
+INFO:root:---------------------------id P0000416934------------------------
+INFO:root:pred_img_np shape:
+(473, 512, 512)
+INFO:root:Process P0000416934,time spent:51.974602937698364 
+INFO:root:---------------------------id P00121404------------------------
+INFO:root:pred_img_np shape:
+(474, 512, 512)
+INFO:root:Process P00121404,time spent:57.105464935302734 
+INFO:root:---------------------------id P0000962050------------------------
+INFO:root:pred_img_np shape:
+(475, 512, 512)
+INFO:root:Process P0000962050,time spent:62.52480387687683 
+INFO:root:---------------------------id P0000739822------------------------
+INFO:root:pred_img_np shape:
+(475, 512, 512)
+INFO:root:Process P0000739822,time spent:66.08303952217102 
+INFO:root:---------------------------id P00111521------------------------
+INFO:root:pred_img_np shape:
+(476, 512, 512)
+INFO:root:Process P00111521,time spent:61.12614345550537 
+INFO:root:---------------------------id P00136813------------------------
+INFO:root:pred_img_np shape:
+(476, 512, 512)
+INFO:root:Process P00136813,time spent:64.93107604980469 
+INFO:root:---------------------------id P0000941647------------------------
+INFO:root:pred_img_np shape:
+(476, 512, 512)
+INFO:root:Process P0000941647,time spent:66.60150837898254 
+INFO:root:---------------------------id P00200641------------------------
+INFO:root:pred_img_np shape:
+(477, 512, 512)
+INFO:root:Process P00200641,time spent:66.72165656089783 
+INFO:root:---------------------------id P0000991808------------------------
+INFO:root:pred_img_np shape:
+(478, 512, 512)
+INFO:root:Process P0000991808,time spent:66.27717709541321 
+INFO:root:---------------------------id P00100980------------------------
+INFO:root:pred_img_np shape:
+(479, 512, 512)
+INFO:root:Process P00100980,time spent:64.44844508171082 
+INFO:root:---------------------------id P0000336882------------------------
+INFO:root:pred_img_np shape:
+(479, 512, 512)
+INFO:root:Process P0000336882,time spent:52.80332326889038 
+INFO:root:---------------------------id P0000981659------------------------
+INFO:root:pred_img_np shape:
+(480, 512, 512)
+INFO:root:Process P0000981659,time spent:47.385514974594116 
+INFO:root:---------------------------id P00111206------------------------
+INFO:root:pred_img_np shape:
+(480, 512, 512)
+INFO:root:Process P00111206,time spent:44.138954639434814 
+INFO:root:---------------------------id P0000775303------------------------
+INFO:root:pred_img_np shape:
+(482, 512, 512)
+INFO:root:Process P0000775303,time spent:69.20779132843018 
+INFO:root:---------------------------id P0000619718------------------------
+INFO:root:pred_img_np shape:
+(482, 512, 512)
+INFO:root:Process P0000619718,time spent:66.3369722366333 
+INFO:root:---------------------------id P0000481732------------------------
+INFO:root:pred_img_np shape:
+(483, 512, 512)
+INFO:root:Process P0000481732,time spent:77.17701482772827 
+INFO:root:---------------------------id P0000524729------------------------
+INFO:root:pred_img_np shape:
+(483, 512, 512)
+INFO:root:Process P0000524729,time spent:71.11731338500977 
+INFO:root:---------------------------id P0000827286------------------------
+INFO:root:pred_img_np shape:
+(483, 512, 512)
+INFO:root:Process P0000827286,time spent:73.36529636383057 
+INFO:root:---------------------------id P0000647026------------------------
+INFO:root:pred_img_np shape:
+(483, 512, 512)
+INFO:root:Process P0000647026,time spent:62.44193077087402 
+INFO:root:---------------------------id P0000959424------------------------
+INFO:root:pred_img_np shape:
+(485, 512, 512)
+INFO:root:Process P0000959424,time spent:49.64499807357788 
+INFO:root:---------------------------id P0000736408------------------------
+INFO:root:pred_img_np shape:
+(490, 512, 512)
+INFO:root:Process P0000736408,time spent:48.345972537994385 
+INFO:root:---------------------------id P0000703038------------------------
+INFO:root:pred_img_np shape:
+(492, 512, 512)
+INFO:root:Process P0000703038,time spent:68.57453322410583 
+INFO:root:---------------------------id P0000585815------------------------
+INFO:root:pred_img_np shape:
+(492, 512, 512)
+INFO:root:Process P0000585815,time spent:66.61435174942017 
+INFO:root:---------------------------id P0001004994------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0001004994,time spent:66.45273971557617 
+INFO:root:---------------------------id P0000583164------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000583164,time spent:69.19542694091797 
+INFO:root:---------------------------id P0000890937------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000890937,time spent:68.02491283416748 
+INFO:root:---------------------------id P0000515957------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000515957,time spent:63.97430109977722 
+INFO:root:---------------------------id P0000751521------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000751521,time spent:67.37074089050293 
+INFO:root:---------------------------id P0001020246------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0001020246,time spent:51.44085717201233 
+INFO:root:---------------------------id P0000621649------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000621649,time spent:56.07336926460266 
+INFO:root:---------------------------id P0000694991------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000694991,time spent:68.25728797912598 
+INFO:root:---------------------------id P0000155244------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000155244,time spent:65.89394235610962 
+INFO:root:---------------------------id P0000930763------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000930763,time spent:66.01998567581177 
+INFO:root:---------------------------id P0000598716------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000598716,time spent:64.43608069419861 
+INFO:root:---------------------------id P0000347086------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000347086,time spent:63.70731043815613 
+INFO:root:---------------------------id P0000041814------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000041814,time spent:64.71233773231506 
+INFO:root:---------------------------id P0000612147------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000612147,time spent:74.31852173805237 
+INFO:root:---------------------------id P0000573674------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000573674,time spent:68.70873665809631 
+INFO:root:---------------------------id P0000565826------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000565826,time spent:50.00326490402222 
+INFO:root:---------------------------id P0000927879------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000927879,time spent:52.93750238418579 
+INFO:root:---------------------------id P0000682168------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000682168,time spent:57.59123110771179 
+INFO:root:---------------------------id P0000891334------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000891334,time spent:68.29275131225586 
+INFO:root:---------------------------id P0000628913------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000628913,time spent:64.29978442192078 
+INFO:root:---------------------------id P0000378570------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000378570,time spent:67.77980661392212 
+INFO:root:---------------------------id P0000863103------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000863103,time spent:65.12232899665833 
+INFO:root:---------------------------id P0000696066------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000696066,time spent:62.957725524902344 
+INFO:root:---------------------------id P0000945739------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000945739,time spent:73.26139903068542 
+INFO:root:---------------------------id P0000198475------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000198475,time spent:68.36937046051025 
+INFO:root:---------------------------id P0000780518------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000780518,time spent:65.3478045463562 
+INFO:root:---------------------------id P0000778652------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000778652,time spent:50.77188849449158 
+INFO:root:---------------------------id P0000406063------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000406063,time spent:47.47028183937073 
+INFO:root:---------------------------id P0000562973------------------------
+INFO:root:pred_img_np shape:
+(496, 512, 512)
+INFO:root:Process P0000562973,time spent:71.86961269378662 
+INFO:root:---------------------------id P0000584361------------------------
+INFO:root:pred_img_np shape:
+(496, 512, 512)
+INFO:root:Process P0000584361,time spent:64.37693357467651 
+INFO:root:---------------------------id P0000774575------------------------
+INFO:root:pred_img_np shape:
+(497, 512, 512)
+INFO:root:Process P0000774575,time spent:69.04986095428467 
+INFO:root:---------------------------id P0000687554------------------------
+INFO:root:pred_img_np shape:
+(498, 512, 512)
+INFO:root:Process P0000687554,time spent:71.06334924697876 
+INFO:root:---------------------------id P0000696293------------------------
+INFO:root:pred_img_np shape:
+(498, 512, 512)
+INFO:root:Process P0000696293,time spent:64.62297868728638 
+INFO:root:---------------------------id P0000822413------------------------
+INFO:root:pred_img_np shape:
+(503, 512, 512)
+INFO:root:Process P0000822413,time spent:72.85931777954102 
+INFO:root:---------------------------id P0000471776------------------------
+INFO:root:pred_img_np shape:
+(506, 512, 512)
+INFO:root:Process P0000471776,time spent:69.61324095726013 
+INFO:root:---------------------------id P0000421245------------------------
+INFO:root:pred_img_np shape:
+(509, 512, 512)
+INFO:root:Process P0000421245,time spent:63.48814511299133 
+INFO:root:---------------------------id P0000049612------------------------
+INFO:root:pred_img_np shape:
+(509, 512, 512)
+INFO:root:Process P0000049612,time spent:71.21295952796936 
+INFO:root:---------------------------id P0000054436------------------------
+INFO:root:pred_img_np shape:
+(509, 512, 512)
+INFO:root:Process P0000054436,time spent:69.6790840625763 
+INFO:root:---------------------------id P00118390------------------------
+INFO:root:pred_img_np shape:
+(512, 512, 512)
+INFO:root:Process P00118390,time spent:64.66066241264343 
+INFO:root:---------------------------id P0000818275------------------------
+INFO:root:pred_img_np shape:
+(512, 512, 512)
+INFO:root:Process P0000818275,time spent:73.43537878990173 
+INFO:root:---------------------------id P0000789981------------------------
+INFO:root:pred_img_np shape:
+(513, 512, 512)
+INFO:root:Process P0000789981,time spent:67.58740401268005 
+INFO:root:---------------------------id P0000617078------------------------
+INFO:root:pred_img_np shape:
+(513, 512, 512)
+INFO:root:Process P0000617078,time spent:64.73355269432068 
+INFO:root:---------------------------id P0000909772------------------------
+INFO:root:pred_img_np shape:
+(515, 512, 512)
+INFO:root:Process P0000909772,time spent:67.52212405204773 
+INFO:root:---------------------------id P0000959040------------------------
+INFO:root:pred_img_np shape:
+(515, 512, 512)
+INFO:root:Process P0000959040,time spent:68.80718040466309 
+INFO:root:---------------------------id P0000801269------------------------
+INFO:root:pred_img_np shape:
+(517, 512, 512)
+INFO:root:Process P0000801269,time spent:75.77748274803162 
+INFO:root:---------------------------id P0000566111------------------------
+INFO:root:pred_img_np shape:
+(518, 512, 512)
+INFO:root:Process P0000566111,time spent:77.46094679832458 
+INFO:root:---------------------------id P0000675484------------------------
+INFO:root:pred_img_np shape:
+(518, 512, 512)
+INFO:root:Process P0000675484,time spent:71.21299195289612 
+INFO:root:---------------------------id P0001008689------------------------
+INFO:root:pred_img_np shape:
+(519, 512, 512)
+INFO:root:Process P0001008689,time spent:73.44486093521118 
+INFO:root:---------------------------id P0000558606------------------------
+INFO:root:pred_img_np shape:
+(521, 512, 512)
+INFO:root:Process P0000558606,time spent:73.38647937774658 
+INFO:root:---------------------------id P0000539821------------------------
+INFO:root:pred_img_np shape:
+(525, 512, 512)
+INFO:root:Process P0000539821,time spent:70.625723361969 
+INFO:root:---------------------------id P0000974032------------------------
+INFO:root:pred_img_np shape:
+(526, 512, 512)
+INFO:root:Process P0000974032,time spent:67.47305297851562 
+INFO:root:---------------------------id P0000787767------------------------
+INFO:root:pred_img_np shape:
+(528, 512, 512)
+INFO:root:Process P0000787767,time spent:64.32156372070312 
+INFO:root:---------------------------id P0000954433------------------------
+INFO:root:pred_img_np shape:
+(529, 512, 512)
+INFO:root:Process P0000954433,time spent:55.723294258117676 
+INFO:root:---------------------------id P0000539130------------------------
+INFO:root:pred_img_np shape:
+(530, 512, 512)
+INFO:root:Process P0000539130,time spent:52.79149580001831 
+INFO:root:---------------------------id P0000469025------------------------
+INFO:root:pred_img_np shape:
+(530, 512, 512)
+INFO:root:Process P0000469025,time spent:56.42934060096741 
+INFO:root:---------------------------id P0000733746------------------------
+INFO:root:pred_img_np shape:
+(536, 512, 512)
+INFO:root:Process P0000733746,time spent:54.589850187301636 
+INFO:root:---------------------------id P0000131738------------------------
+INFO:root:pred_img_np shape:
+(542, 512, 512)
+INFO:root:Process P0000131738,time spent:53.699366331100464 
+INFO:root:---------------------------id P0000695381------------------------
+INFO:root:pred_img_np shape:
+(544, 512, 512)
+INFO:root:Process P0000695381,time spent:74.71051478385925 
+INFO:root:---------------------------id P0000791771------------------------
+INFO:root:pred_img_np shape:
+(550, 512, 512)
+INFO:root:Process P0000791771,time spent:70.5292501449585 
+INFO:root:---------------------------id P0000759527------------------------
+INFO:root:pred_img_np shape:
+(554, 512, 512)
+INFO:root:Process P0000759527,time spent:74.15745091438293 
+INFO:root:---------------------------id 28272------------------------
+INFO:root:pred_img_np shape:
+(557, 512, 512)
+INFO:root:Process 28272,time spent:88.64567112922668 
+INFO:root:---------------------------id 813------------------------
+INFO:root:pred_img_np shape:
+(557, 512, 512)
+INFO:root:Process 813,time spent:79.52742719650269 
+INFO:root:---------------------------id 14409------------------------
+INFO:root:pred_img_np shape:
+(557, 512, 512)
+INFO:root:Process 14409,time spent:79.23988199234009 
+INFO:root:---------------------------id 515745------------------------
+INFO:root:pred_img_np shape:
+(557, 512, 512)
+INFO:root:Process 515745,time spent:79.7225694656372 
+INFO:root:---------------------------id P0000314484------------------------
+INFO:root:pred_img_np shape:
+(580, 512, 512)
+INFO:root:Process P0000314484,time spent:86.56759834289551 
+INFO:root:---------------------------id P00063684------------------------
+INFO:root:pred_img_np shape:
+(585, 512, 512)
+INFO:root:Process P00063684,time spent:73.3342297077179 
+INFO:root:---------------------------id 298447------------------------
+INFO:root:pred_img_np shape:
+(601, 512, 512)
+INFO:root:Process 298447,time spent:87.36299920082092 
+INFO:root:---------------------------id P0000895025------------------------
+INFO:root:pred_img_np shape:
+(643, 512, 512)
+INFO:root:Process P0000895025,time spent:76.42801141738892 
+INFO:root:---------------------------id 986------------------------
+INFO:root:pred_img_np shape:
+(651, 512, 512)
+INFO:root:Process 986,time spent:64.62135481834412 
+INFO:root:---------------------------id XY03382------------------------
+INFO:root:pred_img_np shape:
+(663, 512, 512)
+INFO:root:Process XY03382,time spent:70.051029920578 
+INFO:root:---------------------------id 419811------------------------
+INFO:root:pred_img_np shape:
+(666, 512, 512)
+INFO:root:Process 419811,time spent:88.77232646942139 
+INFO:root:---------------------------id P0000589184------------------------
+INFO:root:pred_img_np shape:
+(668, 512, 512)
+INFO:root:Process P0000589184,time spent:92.12058091163635 
+INFO:root:---------------------------id 329533T------------------------
+INFO:root:pred_img_np shape:
+(673, 512, 512)
+INFO:root:Process 329533T,time spent:96.07739162445068 
+INFO:root:---------------------------id P0000756119------------------------
+INFO:root:pred_img_np shape:
+(677, 512, 512)
+INFO:root:Process P0000756119,time spent:96.43164563179016 
+INFO:root:---------------------------id XY02964------------------------
+INFO:root:pred_img_np shape:
+(680, 512, 512)
+INFO:root:Process XY02964,time spent:97.01353168487549 
+INFO:root:---------------------------id P0000442158------------------------
+INFO:root:pred_img_np shape:
+(682, 512, 512)
+INFO:root:Process P0000442158,time spent:96.68659687042236 
+INFO:root:---------------------------id P00228832------------------------
+INFO:root:pred_img_np shape:
+(686, 512, 512)
+INFO:root:Process P00228832,time spent:74.5680103302002 
+INFO:root:---------------------------id P0000105486------------------------
+INFO:root:pred_img_np shape:
+(697, 512, 512)
+INFO:root:Process P0000105486,time spent:91.73941326141357 
+INFO:root:---------------------------id 293250------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 293250,time spent:92.07918190956116 
+INFO:root:---------------------------id 413004------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 413004,time spent:95.38548994064331 
+INFO:root:---------------------------id XY02127------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process XY02127,time spent:94.09141135215759 
+INFO:root:---------------------------id XY11896------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process XY11896,time spent:95.03062081336975 
+INFO:root:---------------------------id 411710------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 411710,time spent:95.5514771938324 
+INFO:root:---------------------------id 294627------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 294627,time spent:72.88358545303345 
+INFO:root:---------------------------id 331876------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 331876,time spent:102.44542217254639 
+INFO:root:---------------------------id 318745------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 318745,time spent:97.7026219367981 
+INFO:root:---------------------------id 414069------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 414069,time spent:93.87844944000244 
+INFO:root:---------------------------id 308477------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 308477,time spent:93.8549337387085 
+INFO:root:---------------------------id 390570------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 390570,time spent:105.14347338676453 
+INFO:root:---------------------------id P0000949363------------------------
+INFO:root:pred_img_np shape:
+(709, 512, 512)
+INFO:root:Process P0000949363,time spent:110.5971040725708 
+INFO:root:---------------------------id XY04115------------------------
+INFO:root:pred_img_np shape:
+(709, 512, 512)
+INFO:root:Process XY04115,time spent:92.32102251052856 
+INFO:root:---------------------------id 303700------------------------
+INFO:root:pred_img_np shape:
+(712, 512, 512)
+INFO:root:Process 303700,time spent:71.56305122375488 
+INFO:root:---------------------------id 420110------------------------
+INFO:root:pred_img_np shape:
+(714, 512, 512)
+INFO:root:Process 420110,time spent:100.67786717414856 
+INFO:root:---------------------------id 416484------------------------
+INFO:root:pred_img_np shape:
+(714, 512, 512)
+INFO:root:Process 416484,time spent:90.40519118309021 
+INFO:root:---------------------------id P0000150838------------------------
+INFO:root:pred_img_np shape:
+(715, 512, 512)
+INFO:root:Process P0000150838,time spent:107.65241265296936 
+INFO:root:---------------------------id 398073------------------------
+INFO:root:pred_img_np shape:
+(722, 512, 512)
+INFO:root:Process 398073,time spent:107.93037986755371 
+INFO:root:---------------------------id P0000693481------------------------
+INFO:root:pred_img_np shape:
+(727, 512, 512)
+INFO:root:Process P0000693481,time spent:103.09166121482849 
+INFO:root:---------------------------id P0000617288------------------------
+INFO:root:pred_img_np shape:
+(734, 512, 512)
+INFO:root:Process P0000617288,time spent:132.81518864631653 
+INFO:root:---------------------------id P00114296------------------------
+INFO:root:pred_img_np shape:
+(735, 512, 512)
+INFO:root:Process P00114296,time spent:90.9645414352417 
+INFO:root:---------------------------id 390856------------------------
+INFO:root:pred_img_np shape:
+(738, 512, 512)
+INFO:root:Process 390856,time spent:77.32030200958252 
+INFO:root:---------------------------id P00009332------------------------
+INFO:root:pred_img_np shape:
+(740, 512, 512)
+INFO:root:Process P00009332,time spent:122.91712856292725 
+INFO:root:---------------------------id P0000274551------------------------
+INFO:root:pred_img_np shape:
+(741, 512, 512)
+INFO:root:Process P0000274551,time spent:93.5277943611145 
+INFO:root:---------------------------id XY11387------------------------
+INFO:root:pred_img_np shape:
+(742, 512, 512)
+INFO:root:Process XY11387,time spent:103.32216000556946 
+INFO:root:---------------------------id P00141095------------------------
+INFO:root:pred_img_np shape:
+(744, 512, 512)
+INFO:root:Process P00141095,time spent:104.20972990989685 
+INFO:root:---------------------------id P0000820816------------------------
+INFO:root:pred_img_np shape:
+(751, 512, 512)
+INFO:root:Process P0000820816,time spent:83.73157739639282 
+INFO:root:---------------------------id P00056160------------------------
+INFO:root:pred_img_np shape:
+(752, 512, 512)
+INFO:root:Process P00056160,time spent:121.24269795417786 
+INFO:root:---------------------------id P00054600------------------------
+INFO:root:pred_img_np shape:
+(752, 512, 512)
+INFO:root:Process P00054600,time spent:117.27354669570923 
+INFO:root:---------------------------id P0000858892------------------------
+INFO:root:pred_img_np shape:
+(755, 512, 512)
+INFO:root:Process P0000858892,time spent:117.5280270576477 
+INFO:root:---------------------------id P0000620205------------------------
+INFO:root:pred_img_np shape:
+(756, 512, 512)
+INFO:root:Process P0000620205,time spent:102.84802150726318 
+INFO:root:---------------------------id 398831------------------------
+INFO:root:pred_img_np shape:
+(758, 512, 512)
+INFO:root:Process 398831,time spent:105.03879737854004 
+INFO:root:---------------------------id P0000410283------------------------
+INFO:root:pred_img_np shape:
+(761, 512, 512)
+INFO:root:Process P0000410283,time spent:105.15610456466675 
+INFO:root:---------------------------id P00231906------------------------
+INFO:root:pred_img_np shape:
+(765, 512, 512)
+INFO:root:Process P00231906,time spent:100.63279175758362 
+INFO:root:---------------------------id P0000806337------------------------
+INFO:root:pred_img_np shape:
+(768, 512, 512)
+INFO:root:Process P0000806337,time spent:71.50890588760376 
+INFO:root:---------------------------id 2174------------------------
+INFO:root:pred_img_np shape:
+(771, 512, 512)
+INFO:root:Process 2174,time spent:78.61346483230591 
+INFO:root:---------------------------id P0000587458------------------------
+INFO:root:pred_img_np shape:
+(771, 512, 512)
+INFO:root:Process P0000587458,time spent:111.03528928756714 
+INFO:root:---------------------------id P0000564543------------------------
+INFO:root:pred_img_np shape:
+(772, 512, 512)
+INFO:root:Process P0000564543,time spent:106.3101258277893 
+INFO:root:---------------------------id P0000635095------------------------
+INFO:root:pred_img_np shape:
+(772, 512, 512)
+INFO:root:Process P0000635095,time spent:105.99718356132507 
+INFO:root:---------------------------id P0000022066------------------------
+INFO:root:pred_img_np shape:
+(773, 512, 512)
+INFO:root:Process P0000022066,time spent:116.45517468452454 
+INFO:root:---------------------------id P00052598------------------------
+INFO:root:pred_img_np shape:
+(777, 512, 512)
+INFO:root:Process P00052598,time spent:129.39391779899597 
+INFO:root:---------------------------id P0000137808------------------------
+INFO:root:pred_img_np shape:
+(778, 512, 512)
+INFO:root:Process P0000137808,time spent:103.32524871826172 
+INFO:root:---------------------------id P0000682767------------------------
+INFO:root:pred_img_np shape:
+(782, 512, 512)
+INFO:root:Process P0000682767,time spent:94.15266680717468 
+INFO:root:---------------------------id 397070------------------------
+INFO:root:pred_img_np shape:
+(782, 512, 512)
+INFO:root:Process 397070,time spent:80.79240441322327 
+INFO:root:---------------------------id P00073538------------------------
+INFO:root:pred_img_np shape:
+(786, 512, 512)
+INFO:root:Process P00073538,time spent:111.95098996162415 
+INFO:root:---------------------------id XY02886------------------------
+INFO:root:pred_img_np shape:
+(786, 512, 512)
+INFO:root:Process XY02886,time spent:112.813321352005 
+INFO:root:---------------------------id P00087922------------------------
+INFO:root:pred_img_np shape:
+(791, 512, 512)
+INFO:root:Process P00087922,time spent:107.39972829818726 
+INFO:root:---------------------------id P00219474------------------------
+INFO:root:pred_img_np shape:
+(791, 512, 512)
+INFO:root:Process P00219474,time spent:113.44789814949036 
+INFO:root:---------------------------id P00142988------------------------
+INFO:root:pred_img_np shape:
+(791, 512, 512)
+INFO:root:Process P00142988,time spent:103.96192002296448 
+INFO:root:---------------------------id P00214283------------------------
+INFO:root:pred_img_np shape:
+(791, 512, 512)
+INFO:root:Process P00214283,time spent:124.33653259277344 
+INFO:root:---------------------------id P0000869055------------------------
+INFO:root:pred_img_np shape:
+(793, 512, 512)
+INFO:root:Process P0000869055,time spent:78.55852055549622 
+INFO:root:---------------------------id P0000606012------------------------
+INFO:root:pred_img_np shape:
+(793, 512, 512)
+INFO:root:Process P0000606012,time spent:89.75852084159851 
+INFO:root:---------------------------id P0000479368------------------------
+INFO:root:pred_img_np shape:
+(795, 512, 512)
+INFO:root:Process P0000479368,time spent:107.62403774261475 
+INFO:root:---------------------------id P0000576594------------------------
+INFO:root:pred_img_np shape:
+(796, 512, 512)
+INFO:root:Process P0000576594,time spent:117.12646770477295 
+INFO:root:---------------------------id P00202490------------------------
+INFO:root:pred_img_np shape:
+(797, 512, 512)
+INFO:root:Process P00202490,time spent:120.5877730846405 
+INFO:root:---------------------------id P00108822------------------------
+INFO:root:pred_img_np shape:
+(797, 512, 512)
+INFO:root:Process P00108822,time spent:107.48098921775818 
+INFO:root:---------------------------id P0001008775------------------------
+INFO:root:pred_img_np shape:
+(798, 512, 512)
+INFO:root:Process P0001008775,time spent:115.49275088310242 
+INFO:root:---------------------------id P0000642745------------------------
+INFO:root:pred_img_np shape:
+(798, 512, 512)
+INFO:root:Process P0000642745,time spent:108.3965060710907 
+INFO:root:---------------------------id P0000344365------------------------
+INFO:root:pred_img_np shape:
+(801, 512, 512)
+INFO:root:Process P0000344365,time spent:121.55202412605286 
+INFO:root:---------------------------id P0000877886------------------------
+INFO:root:pred_img_np shape:
+(801, 512, 512)
+INFO:root:Process P0000877886,time spent:107.85152578353882 
+INFO:root:---------------------------id P0000971930------------------------
+INFO:root:pred_img_np shape:
+(801, 512, 512)
+INFO:root:Process P0000971930,time spent:83.57465386390686 
+INFO:root:---------------------------id P00117410------------------------
+INFO:root:pred_img_np shape:
+(803, 512, 512)
+INFO:root:Process P00117410,time spent:79.51683759689331 
+INFO:root:---------------------------id P0000562720------------------------
+INFO:root:pred_img_np shape:
+(803, 512, 512)
+INFO:root:Process P0000562720,time spent:106.38219714164734 
+INFO:root:---------------------------id P0000464344------------------------
+INFO:root:pred_img_np shape:
+(803, 512, 512)
+INFO:root:Process P0000464344,time spent:100.73477101325989 
+INFO:root:---------------------------id P0000462033------------------------
+INFO:root:pred_img_np shape:
+(803, 512, 512)
+INFO:root:Process P0000462033,time spent:107.14745712280273 
+INFO:root:---------------------------id P00066011------------------------
+INFO:root:pred_img_np shape:
+(805, 512, 512)
+INFO:root:Process P00066011,time spent:120.84211611747742 
+INFO:root:---------------------------id P0000677789------------------------
+INFO:root:pred_img_np shape:
+(806, 512, 512)
+INFO:root:Process P0000677789,time spent:104.09625816345215 
+INFO:root:---------------------------id P0000877882------------------------
+INFO:root:pred_img_np shape:
+(808, 512, 512)
+INFO:root:Process P0000877882,time spent:112.8976194858551 
+INFO:root:---------------------------id P00030022------------------------
+INFO:root:pred_img_np shape:
+(808, 512, 512)
+INFO:root:Process P00030022,time spent:89.52822852134705 
+INFO:root:---------------------------id P0000861226------------------------
+INFO:root:pred_img_np shape:
+(808, 512, 512)
+INFO:root:Process P0000861226,time spent:101.85627675056458 
+INFO:root:---------------------------id P0000801383------------------------
+INFO:root:pred_img_np shape:
+(809, 512, 512)
+INFO:root:Process P0000801383,time spent:115.16461181640625 
+INFO:root:---------------------------id P0001020683------------------------
+INFO:root:pred_img_np shape:
+(811, 512, 512)
+INFO:root:Process P0001020683,time spent:109.80647802352905 
+INFO:root:---------------------------id P0000425873------------------------
+INFO:root:pred_img_np shape:
+(811, 512, 512)
+INFO:root:Process P0000425873,time spent:118.43295502662659 
+INFO:root:---------------------------id P0000506262------------------------
+INFO:root:pred_img_np shape:
+(811, 512, 512)
+INFO:root:Process P0000506262,time spent:109.55654764175415 
+INFO:root:---------------------------id P0000788174------------------------
+INFO:root:pred_img_np shape:
+(813, 512, 512)
+INFO:root:Process P0000788174,time spent:124.11198115348816 
+INFO:root:---------------------------id P00161376------------------------
+INFO:root:pred_img_np shape:
+(814, 512, 512)
+INFO:root:Process P00161376,time spent:121.37745428085327 
+INFO:root:---------------------------id P00023032------------------------
+INFO:root:pred_img_np shape:
+(814, 512, 512)
+INFO:root:Process P00023032,time spent:102.65742111206055 
+INFO:root:---------------------------id P00020302------------------------
+INFO:root:pred_img_np shape:
+(815, 512, 512)
+INFO:root:Process P00020302,time spent:93.95476126670837 
+INFO:root:---------------------------id P0000474755------------------------
+INFO:root:pred_img_np shape:
+(815, 512, 512)
+INFO:root:Process P0000474755,time spent:103.96562767028809 
+INFO:root:---------------------------id P00055749------------------------
+INFO:root:pred_img_np shape:
+(816, 512, 512)
+INFO:root:Process P00055749,time spent:127.9766309261322 
+INFO:root:---------------------------id P00156396------------------------
+INFO:root:pred_img_np shape:
+(816, 512, 512)
+INFO:root:Process P00156396,time spent:131.16419529914856 
+INFO:root:---------------------------id P0000512974------------------------
+INFO:root:pred_img_np shape:
+(816, 512, 512)
+INFO:root:Process P0000512974,time spent:111.53750514984131 
+INFO:root:---------------------------id P00173545------------------------
+INFO:root:pred_img_np shape:
+(816, 512, 512)
+INFO:root:Process P00173545,time spent:127.12475037574768 
+INFO:root:---------------------------id P00228338------------------------
+INFO:root:pred_img_np shape:
+(817, 512, 512)
+INFO:root:Process P00228338,time spent:132.92079901695251 
+INFO:root:---------------------------id P00065241------------------------
+INFO:root:pred_img_np shape:
+(821, 512, 512)
+INFO:root:Process P00065241,time spent:104.73919796943665 
+INFO:root:---------------------------id P0000697908------------------------
+INFO:root:pred_img_np shape:
+(821, 512, 512)
+INFO:root:Process P0000697908,time spent:87.11064100265503 
+INFO:root:---------------------------id P0000556383------------------------
+INFO:root:pred_img_np shape:
+(821, 512, 512)
+INFO:root:Process P0000556383,time spent:95.44113850593567 
+INFO:root:---------------------------id P0000955904------------------------
+INFO:root:pred_img_np shape:
+(822, 512, 512)
+INFO:root:Process P0000955904,time spent:126.8181574344635 
+INFO:root:---------------------------id P0000827212------------------------
+INFO:root:pred_img_np shape:
+(823, 512, 512)
+INFO:root:Process P0000827212,time spent:111.63226985931396 
+INFO:root:---------------------------id P00039330------------------------
+INFO:root:pred_img_np shape:
+(823, 512, 512)
+INFO:root:Process P00039330,time spent:125.27611827850342 
+INFO:root:---------------------------id P0000687107------------------------
+INFO:root:pred_img_np shape:
+(823, 512, 512)
+INFO:root:Process P0000687107,time spent:92.22825479507446 
+INFO:root:---------------------------id P00001284------------------------
+INFO:root:pred_img_np shape:
+(824, 512, 512)
+INFO:root:Process P00001284,time spent:134.31057047843933 
+INFO:root:---------------------------id P0001004320------------------------
+INFO:root:pred_img_np shape:
+(824, 512, 512)
+INFO:root:Process P0001004320,time spent:126.11491060256958 
+INFO:root:---------------------------id P0000392717------------------------
+INFO:root:pred_img_np shape:
+(826, 512, 512)
+INFO:root:Process P0000392717,time spent:125.85941815376282 
+INFO:root:---------------------------id P0000576080------------------------
+INFO:root:pred_img_np shape:
+(826, 512, 512)
+INFO:root:Process P0000576080,time spent:111.93426156044006 
+INFO:root:---------------------------id P0000809077------------------------
+INFO:root:pred_img_np shape:
+(827, 512, 512)
+INFO:root:Process P0000809077,time spent:120.17807126045227 
+INFO:root:---------------------------id P00013550------------------------
+INFO:root:pred_img_np shape:
+(828, 512, 512)
+INFO:root:Process P00013550,time spent:120.11073899269104 
+INFO:root:---------------------------id P00004729------------------------
+INFO:root:pred_img_np shape:
+(828, 512, 512)
+INFO:root:Process P00004729,time spent:125.4424798488617 
+INFO:root:---------------------------id P00085883------------------------
+INFO:root:pred_img_np shape:
+(829, 512, 512)
+INFO:root:Process P00085883,time spent:85.77337193489075 
+INFO:root:---------------------------id P0000863144------------------------
+INFO:root:pred_img_np shape:
+(829, 512, 512)
+INFO:root:Process P0000863144,time spent:91.32859492301941 
+INFO:root:---------------------------id P0000474019------------------------
+INFO:root:pred_img_np shape:
+(831, 512, 512)
+INFO:root:Process P0000474019,time spent:120.3995840549469 
+INFO:root:---------------------------id P0000519448------------------------
+INFO:root:pred_img_np shape:
+(831, 512, 512)
+INFO:root:Process P0000519448,time spent:108.20961213111877 
+INFO:root:---------------------------id P0000619137------------------------
+INFO:root:pred_img_np shape:
+(831, 512, 512)
+INFO:root:Process P0000619137,time spent:113.84290385246277 
+INFO:root:---------------------------id P0000764434------------------------
+INFO:root:pred_img_np shape:
+(831, 512, 512)
+INFO:root:Process P0000764434,time spent:120.10440850257874 
+INFO:root:---------------------------id P0000967141------------------------
+INFO:root:pred_img_np shape:
+(832, 512, 512)
+INFO:root:Process P0000967141,time spent:120.25637984275818 
+INFO:root:---------------------------id P0000477855------------------------
+INFO:root:pred_img_np shape:
+(833, 512, 512)
+INFO:root:Process P0000477855,time spent:123.17103028297424 
+INFO:root:---------------------------id P0000319104------------------------
+INFO:root:pred_img_np shape:
+(834, 512, 512)
+INFO:root:Process P0000319104,time spent:118.10149550437927 
+INFO:root:---------------------------id P00068690------------------------
+INFO:root:pred_img_np shape:
+(834, 512, 512)
+INFO:root:Process P00068690,time spent:83.07662725448608 
+INFO:root:---------------------------id P00141897------------------------
+INFO:root:pred_img_np shape:
+(835, 512, 512)
+INFO:root:Process P00141897,time spent:108.4005982875824 
+INFO:root:---------------------------id P0001014754------------------------
+INFO:root:pred_img_np shape:
+(837, 512, 512)
+INFO:root:Process P0001014754,time spent:109.63990926742554 
+INFO:root:---------------------------id P00077426------------------------
+INFO:root:pred_img_np shape:
+(839, 512, 512)
+INFO:root:Process P00077426,time spent:124.44366145133972 
+INFO:root:---------------------------id P0000795258------------------------
+INFO:root:pred_img_np shape:
+(841, 512, 512)
+INFO:root:Process P0000795258,time spent:115.5109179019928 
+INFO:root:---------------------------id P0000678267------------------------
+INFO:root:pred_img_np shape:
+(841, 512, 512)
+INFO:root:Process P0000678267,time spent:108.16808438301086 
+INFO:root:---------------------------id P00116023------------------------
+INFO:root:pred_img_np shape:
+(843, 512, 512)
+INFO:root:Process P00116023,time spent:96.59735298156738 
+INFO:root:---------------------------id P0001011475------------------------
+INFO:root:pred_img_np shape:
+(845, 512, 512)
+INFO:root:Process P0001011475,time spent:111.52398586273193 
+INFO:root:---------------------------id XY04063------------------------
+INFO:root:pred_img_np shape:
+(846, 512, 512)
+INFO:root:Process XY04063,time spent:114.97784948348999 
+INFO:root:---------------------------id P00233378------------------------
+INFO:root:pred_img_np shape:
+(846, 512, 512)
+INFO:root:Process P00233378,time spent:116.15752863883972 
+INFO:root:---------------------------id P00226641------------------------
+INFO:root:pred_img_np shape:
+(847, 512, 512)
+INFO:root:Process P00226641,time spent:121.91315460205078 
+INFO:root:---------------------------id P00049714------------------------
+INFO:root:pred_img_np shape:
+(847, 512, 512)
+INFO:root:Process P00049714,time spent:131.38013625144958 
+INFO:root:---------------------------id P00158481------------------------
+INFO:root:pred_img_np shape:
+(847, 512, 512)
+INFO:root:Process P00158481,time spent:100.29937028884888 
+INFO:root:---------------------------id P0000557927------------------------
+INFO:root:pred_img_np shape:
+(848, 512, 512)
+INFO:root:Process P0000557927,time spent:96.15031719207764 
+INFO:root:---------------------------id P00219139------------------------
+INFO:root:pred_img_np shape:
+(848, 512, 512)
+INFO:root:Process P00219139,time spent:118.14516305923462 
+INFO:root:---------------------------id P00118866------------------------
+INFO:root:pred_img_np shape:
+(850, 512, 512)
+INFO:root:Process P00118866,time spent:108.1392571926117 
+INFO:root:---------------------------id P00193017------------------------
+INFO:root:pred_img_np shape:
+(851, 512, 512)
+INFO:root:Process P00193017,time spent:111.69551634788513 
+INFO:root:---------------------------id P00052175------------------------
+INFO:root:pred_img_np shape:
+(851, 512, 512)
+INFO:root:Process P00052175,time spent:115.03930044174194 
+INFO:root:---------------------------id P00069821------------------------
+INFO:root:pred_img_np shape:
+(851, 512, 512)
+INFO:root:Process P00069821,time spent:94.80022192001343 
+INFO:root:---------------------------id P0000513930------------------------
+INFO:root:pred_img_np shape:
+(853, 512, 512)
+INFO:root:Process P0000513930,time spent:103.26310729980469 
+INFO:root:---------------------------id P00025671------------------------
+INFO:root:pred_img_np shape:
+(854, 512, 512)
+INFO:root:Process P00025671,time spent:126.79945731163025 
+INFO:root:---------------------------id P0000926037------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000926037,time spent:106.69445013999939 
+INFO:root:---------------------------id P0000943610------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000943610,time spent:126.17473196983337 
+INFO:root:---------------------------id P0000495742------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000495742,time spent:127.8954291343689 
+INFO:root:---------------------------id P0000700880------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000700880,time spent:129.1672215461731 
+INFO:root:---------------------------id P0000869511------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000869511,time spent:111.38715529441833 
+INFO:root:---------------------------id P0000270093------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000270093,time spent:86.51350855827332 
+INFO:root:---------------------------id P0000805505------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000805505,time spent:86.24903559684753 
+INFO:root:---------------------------id P0000643541------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000643541,time spent:131.1726462841034 
+INFO:root:---------------------------id P0000681094------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000681094,time spent:109.10141491889954 
+INFO:root:---------------------------id P0000534648------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000534648,time spent:111.4516921043396 
+INFO:root:---------------------------id P0000947809------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000947809,time spent:112.65240716934204 
+INFO:root:---------------------------id P0000161378------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000161378,time spent:123.23910474777222 
+INFO:root:---------------------------id P0000460916------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000460916,time spent:108.10800051689148 
+INFO:root:---------------------------id P0000924172------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000924172,time spent:119.63353371620178 
+INFO:root:---------------------------id P0000534606------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000534606,time spent:123.08075833320618 
+INFO:root:---------------------------id P0000957897------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000957897,time spent:91.16271448135376 
+INFO:root:---------------------------id P0000707254------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000707254,time spent:88.38125610351562 
+INFO:root:---------------------------id P0000803595------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000803595,time spent:108.52972865104675 
+INFO:root:---------------------------id P0000803684------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000803684,time spent:102.56903719902039 
+INFO:root:---------------------------id P0000859754------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000859754,time spent:113.30571341514587 
+INFO:root:---------------------------id P0000874591------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000874591,time spent:96.08429336547852 
+INFO:root:---------------------------id P0000471709------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000471709,time spent:90.42781329154968 
+INFO:root:---------------------------id P0000834999------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000834999,time spent:105.54169487953186 
+INFO:root:---------------------------id P0000813690------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000813690,time spent:94.84835314750671 
+INFO:root:---------------------------id P0000943920------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000943920,time spent:107.82322478294373 
+INFO:root:---------------------------id P0000935004------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000935004,time spent:110.74984622001648 
+INFO:root:---------------------------id P0000682835------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000682835,time spent:103.01218032836914 
+INFO:root:---------------------------id P0000937482------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000937482,time spent:125.37805676460266 
+INFO:root:---------------------------id P0000322390------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000322390,time spent:116.13231778144836 
+INFO:root:---------------------------id P0001018133------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0001018133,time spent:110.12461566925049 
+INFO:root:---------------------------id P0000525842------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000525842,time spent:115.95270419120789 
+INFO:root:---------------------------id P0000699682------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000699682,time spent:86.50368189811707 
+INFO:root:---------------------------id P0000746192------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000746192,time spent:131.21794366836548 
+INFO:root:---------------------------id P0000577843------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000577843,time spent:113.84287357330322 
+INFO:root:---------------------------id P0000826083------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000826083,time spent:119.8307433128357 
+INFO:root:---------------------------id P0000649269------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000649269,time spent:123.06219696998596 
+INFO:root:---------------------------id P0000580412------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000580412,time spent:124.21711611747742 
+INFO:root:---------------------------id P0000957183------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000957183,time spent:120.0790331363678 
+INFO:root:---------------------------id P0000989729------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000989729,time spent:131.5396764278412 
+INFO:root:---------------------------id P0000945098------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000945098,time spent:119.30146884918213 
+INFO:root:---------------------------id P0000258828------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000258828,time spent:91.79259634017944 
+INFO:root:---------------------------id P0000848870------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000848870,time spent:86.13136792182922 
+INFO:root:---------------------------id P0000690184------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000690184,time spent:111.68355798721313 
+INFO:root:---------------------------id P0000444276------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000444276,time spent:112.00388741493225 
+INFO:root:---------------------------id P0000693125------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000693125,time spent:115.53409934043884 
+INFO:root:---------------------------id P0000742149------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000742149,time spent:124.13891696929932 
+INFO:root:---------------------------id P0000588468------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000588468,time spent:120.59063363075256 
+INFO:root:---------------------------id P0000670107------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000670107,time spent:134.28082728385925 
+INFO:root:---------------------------id P0000802585------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000802585,time spent:94.76903796195984 
+INFO:root:---------------------------id P0000642756------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000642756,time spent:93.54186749458313 
+INFO:root:---------------------------id P0000030833------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000030833,time spent:121.23724460601807 
+INFO:root:---------------------------id P0000794638------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000794638,time spent:120.57876920700073 
+INFO:root:---------------------------id P0000038960------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000038960,time spent:127.73576402664185 
+INFO:root:---------------------------id P0000968046------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000968046,time spent:125.1233024597168 
+INFO:root:---------------------------id P0000055672------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000055672,time spent:121.04954552650452 
+INFO:root:---------------------------id P0000780007------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000780007,time spent:90.55965733528137 
+INFO:root:---------------------------id P0000720573------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000720573,time spent:97.93732190132141 
+INFO:root:---------------------------id P0000696116------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000696116,time spent:119.31244230270386 
+INFO:root:---------------------------id P0000681671------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000681671,time spent:117.24549603462219 
+INFO:root:---------------------------id P0000505514------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000505514,time spent:121.49766826629639 
+INFO:root:---------------------------id P0000375063------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000375063,time spent:109.0180823802948 
+INFO:root:---------------------------id P0000632474------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000632474,time spent:121.26191711425781 
+INFO:root:---------------------------id P0000634237------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000634237,time spent:94.026034116745 
+INFO:root:---------------------------id P0000995376------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000995376,time spent:112.0436577796936 
+INFO:root:---------------------------id P0000379327------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000379327,time spent:115.91930413246155 
+INFO:root:---------------------------id P0000997589------------------------
+INFO:root:pred_img_np shape:
+(858, 512, 512)
+INFO:root:Process P0000997589,time spent:137.36979961395264 
+INFO:root:---------------------------id P00074443------------------------
+INFO:root:pred_img_np shape:
+(863, 512, 512)
+INFO:root:Process P00074443,time spent:135.70583391189575 
+INFO:root:---------------------------id P0000693529------------------------
+INFO:root:pred_img_np shape:
+(866, 512, 512)
+INFO:root:Process P0000693529,time spent:135.20560264587402 
+INFO:root:---------------------------id P00049570------------------------
+INFO:root:pred_img_np shape:
+(866, 512, 512)
+INFO:root:Process P00049570,time spent:106.59638166427612 
+INFO:root:---------------------------id P0000483492------------------------
+INFO:root:pred_img_np shape:
+(866, 512, 512)
+INFO:root:Process P0000483492,time spent:106.09062910079956 
+INFO:root:---------------------------id P0000939081------------------------
+INFO:root:pred_img_np shape:
+(866, 512, 512)
+INFO:root:Process P0000939081,time spent:123.05072402954102 
+INFO:root:---------------------------id P0000675746------------------------
+INFO:root:pred_img_np shape:
+(866, 512, 512)
+INFO:root:Process P0000675746,time spent:130.58971405029297 
+INFO:root:---------------------------id P0000961557------------------------
+INFO:root:pred_img_np shape:
+(867, 512, 512)
+INFO:root:Process P0000961557,time spent:124.60834455490112 
+INFO:root:---------------------------id P0000622633------------------------
+INFO:root:pred_img_np shape:
+(868, 512, 512)
+INFO:root:Process P0000622633,time spent:123.25858044624329 
+INFO:root:---------------------------id P0000980755------------------------
+INFO:root:pred_img_np shape:
+(876, 512, 512)
+INFO:root:Process P0000980755,time spent:119.45910477638245 
+INFO:root:---------------------------id P00126239------------------------
+INFO:root:pred_img_np shape:
+(877, 512, 512)
+INFO:root:Process P00126239,time spent:106.39308786392212 
+INFO:root:---------------------------id P00074860------------------------
+INFO:root:pred_img_np shape:
+(879, 512, 512)
+INFO:root:Process P00074860,time spent:138.3036551475525 
+INFO:root:---------------------------id P00082951------------------------
+INFO:root:pred_img_np shape:
+(880, 512, 512)
+INFO:root:Process P00082951,time spent:146.55853152275085 
+INFO:root:---------------------------id P0000769793------------------------
+INFO:root:pred_img_np shape:
+(881, 512, 512)
+INFO:root:Process P0000769793,time spent:117.09758949279785 
+INFO:root:---------------------------id P0000720457------------------------
+INFO:root:pred_img_np shape:
+(881, 512, 512)
+INFO:root:Process P0000720457,time spent:130.17073273658752 
+INFO:root:---------------------------id P0000019615------------------------
+INFO:root:pred_img_np shape:
+(883, 512, 512)
+INFO:root:Process P0000019615,time spent:126.28329133987427 
+INFO:root:---------------------------id P00191792------------------------
+INFO:root:pred_img_np shape:
+(883, 512, 512)
+INFO:root:Process P00191792,time spent:149.22253394126892 
+INFO:root:---------------------------id P0000914638------------------------
+INFO:root:pred_img_np shape:
+(883, 512, 512)
+INFO:root:Process P0000914638,time spent:108.22442102432251 
+INFO:root:---------------------------id P00086427------------------------
+INFO:root:pred_img_np shape:
+(885, 512, 512)
+INFO:root:Process P00086427,time spent:103.69560813903809 
+INFO:root:---------------------------id P00160650------------------------
+INFO:root:pred_img_np shape:
+(886, 512, 512)
+INFO:root:Process P00160650,time spent:134.78874278068542 
+INFO:root:---------------------------id P00200323------------------------
+INFO:root:pred_img_np shape:
+(887, 512, 512)
+INFO:root:Process P00200323,time spent:130.12012386322021 
+INFO:root:---------------------------id P0000861545------------------------
+INFO:root:pred_img_np shape:
+(887, 512, 512)
+INFO:root:Process P0000861545,time spent:133.34773302078247 
+INFO:root:---------------------------id P00214110------------------------
+INFO:root:pred_img_np shape:
+(890, 512, 512)
+INFO:root:Process P00214110,time spent:150.2609724998474 
+INFO:root:---------------------------id P0000502708------------------------
+INFO:root:pred_img_np shape:
+(891, 512, 512)
+INFO:root:Process P0000502708,time spent:113.56346559524536 
+INFO:root:---------------------------id P0000742993------------------------
+INFO:root:pred_img_np shape:
+(892, 512, 512)
+INFO:root:Process P0000742993,time spent:99.46015739440918 
+INFO:root:---------------------------id P0000804613------------------------
+INFO:root:pred_img_np shape:
+(895, 512, 512)
+INFO:root:Process P0000804613,time spent:126.20515036582947 
+INFO:root:---------------------------id P0000729005------------------------
+INFO:root:pred_img_np shape:
+(896, 512, 512)
+INFO:root:Process P0000729005,time spent:131.8700716495514 
+INFO:root:---------------------------id P0000955342------------------------
+INFO:root:pred_img_np shape:
+(896, 512, 512)
+INFO:root:Process P0000955342,time spent:130.60997939109802 
+INFO:root:---------------------------id P0000743063------------------------
+INFO:root:pred_img_np shape:
+(899, 512, 512)
+INFO:root:Process P0000743063,time spent:120.35054469108582 
+INFO:root:---------------------------id P0000776304------------------------
+INFO:root:pred_img_np shape:
+(900, 512, 512)
+INFO:root:Process P0000776304,time spent:132.1934995651245 
+INFO:root:---------------------------id P0000564231------------------------
+INFO:root:pred_img_np shape:
+(900, 512, 512)
+INFO:root:Process P0000564231,time spent:127.39592146873474 
+INFO:root:---------------------------id P00057939------------------------
+INFO:root:pred_img_np shape:
+(900, 512, 512)
+INFO:root:Process P00057939,time spent:135.27520656585693 
+INFO:root:---------------------------id P0000931551------------------------
+INFO:root:pred_img_np shape:
+(901, 512, 512)
+INFO:root:Process P0000931551,time spent:106.3981785774231 
+INFO:root:---------------------------id P00056123------------------------
+INFO:root:pred_img_np shape:
+(903, 512, 512)
+INFO:root:Process P00056123,time spent:122.53973340988159 
+INFO:root:---------------------------id P00033510------------------------
+INFO:root:pred_img_np shape:
+(905, 512, 512)
+INFO:root:Process P00033510,time spent:127.50551676750183 
+INFO:root:---------------------------id P0000732340------------------------
+INFO:root:pred_img_np shape:
+(906, 512, 512)
+INFO:root:Process P0000732340,time spent:116.8664779663086 
+INFO:root:---------------------------id P0000948711------------------------
+INFO:root:pred_img_np shape:
+(907, 512, 512)
+INFO:root:Process P0000948711,time spent:114.95007562637329 
+INFO:root:---------------------------id P00002166------------------------
+INFO:root:pred_img_np shape:
+(908, 512, 512)
+INFO:root:Process P00002166,time spent:124.33397769927979 
+INFO:root:---------------------------id P00088006------------------------
+INFO:root:pred_img_np shape:
+(908, 512, 512)
+INFO:root:Process P00088006,time spent:133.64386534690857 
+INFO:root:---------------------------id P0000669513------------------------
+INFO:root:pred_img_np shape:
+(908, 512, 512)
+INFO:root:Process P0000669513,time spent:149.67633962631226 
+INFO:root:---------------------------id P0000973131------------------------
+INFO:root:pred_img_np shape:
+(908, 512, 512)
+INFO:root:Process P0000973131,time spent:97.15165042877197 
+INFO:root:---------------------------id P00235174------------------------
+INFO:root:pred_img_np shape:
+(910, 512, 512)
+INFO:root:Process P00235174,time spent:91.28442668914795 
+INFO:root:---------------------------id P0000758594------------------------
+INFO:root:pred_img_np shape:
+(910, 512, 512)
+INFO:root:Process P0000758594,time spent:118.63913202285767 
+INFO:root:---------------------------id P0000986755------------------------
+INFO:root:pred_img_np shape:
+(910, 512, 512)
+INFO:root:Process P0000986755,time spent:132.26180958747864 
+INFO:root:---------------------------id P00152586------------------------
+INFO:root:pred_img_np shape:
+(911, 512, 512)
+INFO:root:Process P00152586,time spent:143.5264549255371 
+INFO:root:---------------------------id P0000615537------------------------
+INFO:root:pred_img_np shape:
+(911, 512, 512)
+INFO:root:Process P0000615537,time spent:123.12776350975037 
+INFO:root:---------------------------id P0000963062------------------------
+INFO:root:pred_img_np shape:
+(911, 512, 512)
+INFO:root:Process P0000963062,time spent:130.2943572998047 
+INFO:root:---------------------------id P0000827258------------------------
+INFO:root:pred_img_np shape:
+(911, 512, 512)
+INFO:root:Process P0000827258,time spent:96.6531891822815 
+INFO:root:---------------------------id P00085509------------------------
+INFO:root:pred_img_np shape:
+(914, 512, 512)
+INFO:root:Process P00085509,time spent:131.85646986961365 
+INFO:root:---------------------------id P0000680343------------------------
+INFO:root:pred_img_np shape:
+(916, 512, 512)
+INFO:root:Process P0000680343,time spent:143.09354305267334 
+INFO:root:---------------------------id P0000863059------------------------
+INFO:root:pred_img_np shape:
+(916, 512, 512)
+INFO:root:Process P0000863059,time spent:130.42573380470276 
+INFO:root:---------------------------id P00109955------------------------
+INFO:root:pred_img_np shape:
+(919, 512, 512)
+INFO:root:Process P00109955,time spent:154.48024559020996 
+INFO:root:---------------------------id P00229317------------------------
+INFO:root:pred_img_np shape:
+(920, 512, 512)
+INFO:root:Process P00229317,time spent:161.41639471054077 
+INFO:root:---------------------------id P00020183------------------------
+INFO:root:pred_img_np shape:
+(920, 512, 512)
+INFO:root:Process P00020183,time spent:119.27309823036194 
+INFO:root:---------------------------id P00157354------------------------
+INFO:root:pred_img_np shape:
+(921, 512, 512)
+INFO:root:Process P00157354,time spent:118.87412905693054 
+INFO:root:---------------------------id P00037421------------------------
+INFO:root:pred_img_np shape:
+(927, 512, 512)
+INFO:root:Process P00037421,time spent:129.72832608222961 
+INFO:root:---------------------------id P00052467------------------------
+INFO:root:pred_img_np shape:
+(929, 512, 512)
+INFO:root:Process P00052467,time spent:153.43994331359863 
+INFO:root:---------------------------id P00093108------------------------
+INFO:root:pred_img_np shape:
+(931, 512, 512)
+INFO:root:Process P00093108,time spent:142.43868350982666 
+INFO:root:---------------------------id P0000876019------------------------
+INFO:root:pred_img_np shape:
+(931, 512, 512)
+INFO:root:Process P0000876019,time spent:99.72970128059387 
+INFO:root:---------------------------id P0000592443------------------------
+INFO:root:pred_img_np shape:
+(942, 512, 512)
+INFO:root:Process P0000592443,time spent:140.3189811706543 
+INFO:root:---------------------------id P00183986------------------------
+INFO:root:pred_img_np shape:
+(945, 512, 512)
+INFO:root:Process P00183986,time spent:158.390074968338 
+INFO:root:---------------------------id P0000516475------------------------
+INFO:root:pred_img_np shape:
+(948, 512, 512)
+INFO:root:Process P0000516475,time spent:131.11790013313293 
+INFO:root:---------------------------id P00010643------------------------
+INFO:root:pred_img_np shape:
+(973, 512, 512)
+INFO:root:Process P00010643,time spent:155.64237141609192 
+INFO:root:---------------------------id P00063038------------------------
+INFO:root:pred_img_np shape:
+(1002, 512, 512)
+INFO:root:Process P00063038,time spent:133.3014259338379 
+INFO:root:---------------------------id P0000247910------------------------
+INFO:root:pred_img_np shape:
+(1031, 512, 512)
+INFO:root:Process P0000247910,time spent:132.5631082057953 
+INFO:root:---------------------------id 359523------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 359523,time spent:30.591856479644775 
+INFO:root:---------------------------id 447894------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 447894,time spent:32.06932282447815 
+INFO:root:---------------------------id 356349------------------------
+INFO:root:pred_img_np shape:
+(265, 512, 512)
+INFO:root:Process 356349,time spent:31.441105842590332 
+INFO:root:---------------------------id P00102897------------------------
+INFO:root:pred_img_np shape:
+(366, 512, 512)
+INFO:root:Process P00102897,time spent:46.25758457183838 
+INFO:root:---------------------------id P00085910------------------------
+INFO:root:pred_img_np shape:
+(368, 512, 512)
+INFO:root:Process P00085910,time spent:43.37830567359924 
+INFO:root:---------------------------id P00193260------------------------
+INFO:root:pred_img_np shape:
+(387, 512, 512)
+INFO:root:Process P00193260,time spent:50.41025733947754 
+INFO:root:---------------------------id P00100647------------------------
+INFO:root:pred_img_np shape:
+(393, 512, 512)
+INFO:root:Process P00100647,time spent:50.82912063598633 
+INFO:root:---------------------------id P00210454------------------------
+INFO:root:pred_img_np shape:
+(393, 512, 512)
+INFO:root:Process P00210454,time spent:47.790785789489746 
+INFO:root:---------------------------id P00217354------------------------
+INFO:root:pred_img_np shape:
+(401, 512, 512)
+INFO:root:Process P00217354,time spent:40.441415548324585 
+INFO:root:---------------------------id P00077251------------------------
+INFO:root:pred_img_np shape:
+(406, 512, 512)
+INFO:root:Process P00077251,time spent:42.07800054550171 
+INFO:root:---------------------------id P00094423------------------------
+INFO:root:pred_img_np shape:
+(411, 512, 512)
+INFO:root:Process P00094423,time spent:47.126062631607056 
+INFO:root:---------------------------id P00156581------------------------
+INFO:root:pred_img_np shape:
+(416, 512, 512)
+INFO:root:Process P00156581,time spent:47.90347075462341 
+INFO:root:---------------------------id P00207872------------------------
+INFO:root:pred_img_np shape:
+(419, 512, 512)
+INFO:root:Process P00207872,time spent:45.68968319892883 
+INFO:root:---------------------------id P00217087------------------------
+INFO:root:pred_img_np shape:
+(422, 512, 512)
+INFO:root:Process P00217087,time spent:47.82193374633789 
+INFO:root:---------------------------id P00038697------------------------
+INFO:root:pred_img_np shape:
+(424, 512, 512)
+INFO:root:Process P00038697,time spent:48.416805028915405 
+INFO:root:---------------------------id P00172218------------------------
+INFO:root:pred_img_np shape:
+(435, 512, 512)
+INFO:root:Process P00172218,time spent:53.144999742507935 
+INFO:root:---------------------------id P00229433------------------------
+INFO:root:pred_img_np shape:
+(445, 512, 512)
+INFO:root:Process P00229433,time spent:48.59822726249695 
+INFO:root:---------------------------id P00112186------------------------
+INFO:root:pred_img_np shape:
+(450, 512, 512)
+INFO:root:Process P00112186,time spent:43.835102796554565 
+INFO:root:---------------------------id P0001005666------------------------
+INFO:root:pred_img_np shape:
+(456, 512, 512)
+INFO:root:Process P0001005666,time spent:60.52974605560303 
+INFO:root:---------------------------id P0000520102------------------------
+INFO:root:pred_img_np shape:
+(466, 512, 512)
+INFO:root:Process P0000520102,time spent:61.441593408584595 
+INFO:root:---------------------------id P00016825------------------------
+INFO:root:pred_img_np shape:
+(472, 512, 512)
+INFO:root:Process P00016825,time spent:56.777496099472046 
+INFO:root:---------------------------id P0000396560------------------------
+INFO:root:pred_img_np shape:
+(477, 512, 512)
+INFO:root:Process P0000396560,time spent:64.90432333946228 
+INFO:root:---------------------------id P0000786560------------------------
+INFO:root:pred_img_np shape:
+(483, 512, 512)
+INFO:root:Process P0000786560,time spent:75.98654866218567 
+INFO:root:---------------------------id P0000767757------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000767757,time spent:66.70791983604431 
+INFO:root:---------------------------id P0000198875------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000198875,time spent:69.48398756980896 
+INFO:root:---------------------------id P0000673580------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000673580,time spent:74.28102850914001 
+INFO:root:---------------------------id P0000969607------------------------
+INFO:root:pred_img_np shape:
+(495, 512, 512)
+INFO:root:Process P0000969607,time spent:72.08698844909668 
+INFO:root:---------------------------id P0000673808------------------------
+INFO:root:pred_img_np shape:
+(501, 512, 512)
+INFO:root:Process P0000673808,time spent:65.21997356414795 
+INFO:root:---------------------------id P0000460456------------------------
+INFO:root:pred_img_np shape:
+(510, 512, 512)
+INFO:root:Process P0000460456,time spent:73.20231986045837 
+INFO:root:---------------------------id P00075657------------------------
+INFO:root:pred_img_np shape:
+(513, 512, 512)
+INFO:root:Process P00075657,time spent:70.38781332969666 
+INFO:root:---------------------------id P0000464988------------------------
+INFO:root:pred_img_np shape:
+(520, 512, 512)
+INFO:root:Process P0000464988,time spent:70.07087445259094 
+INFO:root:---------------------------id P0000688298------------------------
+INFO:root:pred_img_np shape:
+(540, 512, 512)
+INFO:root:Process P0000688298,time spent:69.6920976638794 
+INFO:root:---------------------------id 198420------------------------
+INFO:root:pred_img_np shape:
+(579, 512, 512)
+INFO:root:Process 198420,time spent:89.57453465461731 
+INFO:root:---------------------------id 413615------------------------
+INFO:root:pred_img_np shape:
+(669, 512, 512)
+INFO:root:Process 413615,time spent:66.08335447311401 
+INFO:root:---------------------------id 318833------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 318833,time spent:71.56643152236938 
+INFO:root:---------------------------id 298438------------------------
+INFO:root:pred_img_np shape:
+(699, 512, 512)
+INFO:root:Process 298438,time spent:72.81543636322021 
+INFO:root:---------------------------id 416776------------------------
+INFO:root:pred_img_np shape:
+(725, 512, 512)
+INFO:root:Process 416776,time spent:100.58967542648315 
+INFO:root:---------------------------id P0000425458------------------------
+INFO:root:pred_img_np shape:
+(750, 512, 512)
+INFO:root:Process P0000425458,time spent:89.94550085067749 
+INFO:root:---------------------------id P00220346------------------------
+INFO:root:pred_img_np shape:
+(766, 512, 512)
+INFO:root:Process P00220346,time spent:91.55494260787964 
+INFO:root:---------------------------id XY07948------------------------
+INFO:root:pred_img_np shape:
+(778, 512, 512)
+INFO:root:Process XY07948,time spent:93.41966533660889 
+INFO:root:---------------------------id 414332------------------------
+INFO:root:pred_img_np shape:
+(793, 512, 512)
+INFO:root:Process 414332,time spent:78.8295590877533 
+INFO:root:---------------------------id P0000657404------------------------
+INFO:root:pred_img_np shape:
+(798, 512, 512)
+INFO:root:Process P0000657404,time spent:100.92391395568848 
+INFO:root:---------------------------id P0000567491------------------------
+INFO:root:pred_img_np shape:
+(806, 512, 512)
+INFO:root:Process P0000567491,time spent:107.57935881614685 
+INFO:root:---------------------------id P0000799790------------------------
+INFO:root:pred_img_np shape:
+(813, 512, 512)
+INFO:root:Process P0000799790,time spent:120.48875689506531 
+INFO:root:---------------------------id P0001007809------------------------
+INFO:root:pred_img_np shape:
+(816, 512, 512)
+INFO:root:Process P0001007809,time spent:109.1885941028595 
+INFO:root:---------------------------id P0000486333------------------------
+INFO:root:pred_img_np shape:
+(823, 512, 512)
+INFO:root:Process P0000486333,time spent:98.15837216377258 
+INFO:root:---------------------------id P0000712359------------------------
+INFO:root:pred_img_np shape:
+(828, 512, 512)
+INFO:root:Process P0000712359,time spent:99.63900327682495 
+INFO:root:---------------------------id P0000920323------------------------
+INFO:root:pred_img_np shape:
+(833, 512, 512)
+INFO:root:Process P0000920323,time spent:112.082839012146 
+INFO:root:---------------------------id P0000639649------------------------
+INFO:root:pred_img_np shape:
+(843, 512, 512)
+INFO:root:Process P0000639649,time spent:104.14512467384338 
+INFO:root:---------------------------id P00233567------------------------
+INFO:root:pred_img_np shape:
+(849, 512, 512)
+INFO:root:Process P00233567,time spent:131.68696403503418 
+INFO:root:---------------------------id P0000406156------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000406156,time spent:130.58355283737183 
+INFO:root:---------------------------id P0000797688------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000797688,time spent:123.8140082359314 
+INFO:root:---------------------------id P0000634246------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000634246,time spent:110.7025237083435 
+INFO:root:---------------------------id P0000633840------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000633840,time spent:101.60117268562317 
+INFO:root:---------------------------id P0000429982------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000429982,time spent:120.392245054245 
+INFO:root:---------------------------id P0000623057------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000623057,time spent:122.1074571609497 
+INFO:root:---------------------------id P0000700642------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000700642,time spent:123.22827816009521 
+INFO:root:---------------------------id P0000849670------------------------
+INFO:root:pred_img_np shape:
+(856, 512, 512)
+INFO:root:Process P0000849670,time spent:116.4552698135376 
+INFO:root:---------------------------id P0000632529------------------------
+INFO:root:pred_img_np shape:
+(863, 512, 512)
+INFO:root:Process P0000632529,time spent:127.24356532096863 
+INFO:root:---------------------------id P00226042------------------------
+INFO:root:pred_img_np shape:
+(874, 512, 512)
+INFO:root:Process P00226042,time spent:110.90131759643555 
+INFO:root:---------------------------id P0001007040------------------------
+INFO:root:pred_img_np shape:
+(883, 512, 512)
+INFO:root:Process P0001007040,time spent:114.94346475601196 
+INFO:root:---------------------------id P0000860539------------------------
+INFO:root:pred_img_np shape:
+(893, 512, 512)
+INFO:root:Process P0000860539,time spent:119.32759499549866 
+INFO:root:---------------------------id P0000592470------------------------
+INFO:root:pred_img_np shape:
+(902, 512, 512)
+INFO:root:Process P0000592470,time spent:123.3147943019867 
+INFO:root:---------------------------id P0001007714------------------------
+INFO:root:pred_img_np shape:
+(908, 512, 512)
+INFO:root:Process P0001007714,time spent:124.08927249908447 
+INFO:root:---------------------------id P00062672------------------------
+INFO:root:pred_img_np shape:
+(915, 512, 512)
+INFO:root:Process P00062672,time spent:140.5926775932312 
+INFO:root:---------------------------id P00104411------------------------
+INFO:root:pred_img_np shape:
+(929, 512, 512)
+INFO:root:Process P00104411,time spent:157.64341378211975 

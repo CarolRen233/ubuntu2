@@ -1,0 +1,49 @@
+INFO:root:Namespace(config='eval_per_case_medzoo', device='0', gt_file_or_folder='/media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/external/A/ane_seg', logging_folder='/home/ubuntu/codes/MyMedicalZoo/output/ExA/pred', mask=True, pred_file_or_folder='/home/ubuntu/codes/MyMedicalZoo/output/ExA/pred')
+INFO:root:use device 0
+INFO:root:gt_file_or_folder: /media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/external/A/ane_seg
+INFO:root:pred_file_or_folder: /home/ubuntu/codes/MyMedicalZoo/output/ExA/pred
+INFO:root:mask or probability distribution: mask
+INFO:root:Begin to scan gt_folder_or_file /media/ubuntu/Seagate Expansion Drive/IACTA/CellPress1338/external/A/ane_seg...
+INFO:root:Begin to scan pred_folder_or_file /home/ubuntu/codes/MyMedicalZoo/output/ExA/pred...
+INFO:root:instance number: 30. start evaluating...
+INFO:root:===metrics_dict===
+{'ap': AP(), 'auc': AUC(), 'precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'sensitivity': Sensitivity(
+  (cm): _ConfusionMatrix()
+), 'specificity': Specificity(
+  (cm): _ConfusionMatrix()
+), 'dsc': DSC(
+  (cm): _ConfusionMatrix()
+), 'hd95': HD95(), 'tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+), 'tn': TrueNegative(
+  (cm): _ConfusionMatrix()
+), 'per_target_precision': Precision(
+  (cm): _ConfusionMatrix()
+), 'per_target_recall': Recall(
+  (cm): _ConfusionMatrix()
+), 'per_target_tp': TruePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fp': FalsePositive(
+  (cm): _ConfusionMatrix()
+), 'per_target_fn': FalseNegative(
+  (cm): _ConfusionMatrix()
+)}
+======curves_dict====
+{'pr': AP(), 'roc': AUC()}
+INFO:root:(1 in 30) ExtA0001:	ap: 0.5224	auc: 0.6119	precision: 0.9328	recall: 0.2238	sensitivity: 0.2238	specificity: 1.0000	dsc: 0.3610	hd95: 3.9051	tp: 250	fp: 18	fn: 867	tn: 90998805	per_target_precision: 1.0000	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 0	per_target_fn: 0
+INFO:root:(2 in 30) ExtA0002:	ap: 0.0000	auc: 0.5000	precision: 0.0000	recall: 0.0000	sensitivity: 0.0000	specificity: 1.0000	dsc: 0.0000	hd95: 148.8425	tp: 0	fp: 3105	fn: 2238	tn: 87288609	per_target_precision: 0.0000	per_target_recall: 0.0000	per_target_tp: 0	per_target_fp: 1	per_target_fn: 1
+INFO:root:(3 in 30) ExtA0003:	ap: 0.2049	auc: 0.8495	precision: 0.0602	recall: 0.6991	sensitivity: 0.6991	specificity: 0.9999	dsc: 0.1109	hd95: 141.1847	tp: 567	fp: 8844	fn: 244	tn: 94362185	per_target_precision: 0.1667	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 5	per_target_fn: 0
+INFO:root:(4 in 30) ExtA0004:	ap: 0.0000	auc: 0.5000	precision: 0.0000	recall: 0.0000	sensitivity: 0.0000	specificity: 1.0000	dsc: 0.0000	hd95: 33.0634	tp: 0	fp: 53	fn: 4954	tn: 87288945	per_target_precision: 0.0000	per_target_recall: 0.0000	per_target_tp: 0	per_target_fp: 2	per_target_fn: 1
+INFO:root:(5 in 30) ExtA0005:	ap: 0.3750	auc: 0.7500	precision: 0.0000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.0000	hd95: 1.0000	tp: 0	fp: 89	fn: 0	tn: 77834855	per_target_precision: 0.0000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 1	per_target_fn: 0
+INFO:root:(6 in 30) ExtA0006:	ap: 0.0000	auc: 0.5000	precision: 0.0000	recall: 0.0000	sensitivity: 0.0000	specificity: 1.0000	dsc: 0.0000	hd95: 257.1406	tp: 0	fp: 717	fn: 1274	tn: 170235934	per_target_precision: 0.0000	per_target_recall: 0.0000	per_target_tp: 0	per_target_fp: 6	per_target_fn: 1
+INFO:root:(7 in 30) ExtA0007:	ap: 0.3750	auc: 0.7500	precision: 0.0000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.0000	hd95: 1.0000	tp: 0	fp: 101	fn: 0	tn: 97549615	per_target_precision: 0.0000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 2	per_target_fn: 0
+INFO:root:(8 in 30) ExtA0008:	ap: 0.3750	auc: 0.7500	precision: 0.0000	recall: 0.5000	sensitivity: 0.5000	specificity: 1.0000	dsc: 0.0000	hd95: 1.0000	tp: 0	fp: 176	fn: 0	tn: 154542649	per_target_precision: 0.0000	per_target_recall: 0.5000	per_target_tp: 0	per_target_fp: 3	per_target_fn: 0
+INFO:root:(9 in 30) ExtA0010:	ap: 0.5171	auc: 0.7087	precision: 0.8254	recall: 0.4175	sensitivity: 0.4175	specificity: 1.0000	dsc: 0.5545	hd95: 72.8121	tp: 1933	fp: 409	fn: 2697	tn: 128707665	per_target_precision: 0.1429	per_target_recall: 1.0000	per_target_tp: 1	per_target_fp: 6	per_target_fn: 0
