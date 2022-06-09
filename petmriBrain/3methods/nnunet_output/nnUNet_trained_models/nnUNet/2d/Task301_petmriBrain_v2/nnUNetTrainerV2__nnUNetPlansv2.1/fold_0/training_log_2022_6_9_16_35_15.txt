@@ -1,0 +1,9 @@
+Starting... 
+2022-06-09 16:35:15.499505: Using splits from existing split file: /media/carol/workspace/codes/petmriBrain/3methods/nnunet_output/nnUNet_preprocessed/Task301_petmriBrain_v2/splits_final.pkl 
+2022-06-09 16:35:15.500990: The split file contains 5 splits. 
+2022-06-09 16:35:15.501272: Desired fold for training: 0 
+2022-06-09 16:35:15.501543: This split has 48 training and 12 validation cases. 
+2022-06-09 16:35:15.726888: TRAINING KEYS:
+ odict_keys(['002', '003', '004', '005', '006', '007', '009', '011', '015', '016', '017', '018', '019', '020', '023', '024', '030', '031', '032', '033', '036', '040', '043', '044', '045', '046', '047', '049', '051', '052', '054', '055', '056', '057', '058', '059', '061', '066', '070', '071', '073', '074', '076', '077', '078', '080', '097', '101']) 
+2022-06-09 16:35:15.727374: VALIDATION KEYS:
+ odict_keys(['008', '034', '035', '048', '050', '053', '060', '062', '065', '069', '072', '075']) 

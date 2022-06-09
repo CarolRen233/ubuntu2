@@ -1,8 +1,0 @@
-*.nii
-*.nii.gz
-*.gz
-*.zip
-*.npz
-*.npy
-*.model
-*.pth

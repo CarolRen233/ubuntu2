@@ -166,7 +166,7 @@ def verify_dataset_integrity(folder):
 
     # verify that only properly declared values are present in the labels
     print("Verifying label values")
-    expected_labels = sorted(list(int(i) for i in dataset['labels'].keys()))
+    expected_labels = sorted((int(i) for i in dataset['labels'].keys()))
     expected_labels.sort()
 
     # check if labels are in consecutive order
